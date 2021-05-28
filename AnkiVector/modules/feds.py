@@ -32,7 +32,7 @@ from AnkiVector.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_fban,
 )
-from DaisyX.modules.helper_funcs.string_handling import markdown_parser
+from AnkiVector.modules.helper_funcs.string_handling import markdown_parser
 
 # Hello bot owner, I spended for feds many hours of my life, Please don't remove this if you still respect MrYacha and peaktogoo and AyraHikari too
 # Federation by MrYacha 2018-2019
@@ -2384,7 +2384,7 @@ def fed_user_help(update: Update, context: CallbackContext):
     )
 
 
-__mod_name__ = "Federations 👥"
+__mod_name__ = "Federations"
 
 __help__ = """
 Everything is fun, until a spammer starts entering your group, and you have to block it. Then you need to start banning more, and more, and it hurts.
