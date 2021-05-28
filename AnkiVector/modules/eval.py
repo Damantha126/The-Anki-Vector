@@ -9,8 +9,8 @@ from contextlib import redirect_stdout
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
-from DaisyX import LOGGER, dispatcher
-from DaisyX.modules.helper_funcs.chat_status import dev_plus
+from AnkiVector import LOGGER, dispatcher
+from AnkiVector.modules.helper_funcs.chat_status import dev_plus
 
 namespaces = {}
 
