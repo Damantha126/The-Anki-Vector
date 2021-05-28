@@ -7,16 +7,16 @@ from telegram.ext import CallbackContext, CommandHandler, Filters, MessageHandle
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import mention_html, mention_markdown
 
-import DaisyX.modules.sql.blsticker_sql as sql
-from DaisyX import LOGGER, dispatcher
-from DaisyX.modules.connection import connected
-from DaisyX.modules.disable import DisableAbleCommandHandler
-from DaisyX.modules.helper_funcs.alternate import send_message
-from DaisyX.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from DaisyX.modules.helper_funcs.misc import split_message
-from DaisyX.modules.helper_funcs.string_handling import extract_time
-from DaisyX.modules.log_channel import loggable
-from DaisyX.modules.warns import warn
+import AnkiVector.modules.sql.blsticker_sql as sql
+from AnkiVector import LOGGER, dispatcher
+from AnkiVector.modules.connection import connected
+from AnkiVector.modules.disable import DisableAbleCommandHandler
+from AnkiVector.modules.helper_funcs.alternate import send_message
+from AnkiVector.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from AnkiVector.modules.helper_funcs.misc import split_message
+from AnkiVector.modules.helper_funcs.string_handling import extract_time
+from AnkiVector.modules.log_channel import loggable
+from AnkiVector.modules.warns import warn
 
 
 @run_async
