@@ -6,8 +6,8 @@ from time import sleep
 from telegram import TelegramError, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
-from DaisyX import dispatcher
-from DaisyX.modules.helper_funcs.chat_status import dev_plus
+from AnkiVector import dispatcher
+from AnkiVector.modules.helper_funcs.chat_status import dev_plus
 
 
 @run_async
