@@ -15,17 +15,17 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from DaisyX import DRAGONS, LOGGER, dispatcher
-from DaisyX.modules.connection import connected
-from DaisyX.modules.disable import DisableAbleCommandHandler
-from DaisyX.modules.helper_funcs.alternate import send_message, typing_action
-from DaisyX.modules.helper_funcs.chat_status import user_admin
-from DaisyX.modules.helper_funcs.extraction import extract_text
-from DaisyX.modules.helper_funcs.filters import CustomFilters
-from DaisyX.modules.helper_funcs.handlers import MessageHandlerChecker
-from DaisyX.modules.helper_funcs.misc import build_keyboard_parser
-from DaisyX.modules.helper_funcs.msg_types import get_filter_type
-from DaisyX.modules.helper_funcs.string_handling import (
+from AnkiVector import DRAGONS, LOGGER, dispatcher
+from AnkiVector.modules.connection import connected
+from AnkiVector.modules.disable import DisableAbleCommandHandler
+from AnkiVector.modules.helper_funcs.alternate import send_message, typing_action
+from AnkiVector.modules.helper_funcs.chat_status import user_admin
+from AnkiVector.modules.helper_funcs.extraction import extract_text
+from AnkiVector.modules.helper_funcs.filters import CustomFilters
+from AnkiVector.modules.helper_funcs.handlers import MessageHandlerChecker
+from AnkiVector.modules.helper_funcs.misc import build_keyboard_parser
+from AnkiVector.modules.helper_funcs.msg_types import get_filter_type
+from AnkiVector.modules.helper_funcs.string_handling import (
     button_markdown_parser,
     escape_invalid_curly_brackets,
     markdown_to_html,
