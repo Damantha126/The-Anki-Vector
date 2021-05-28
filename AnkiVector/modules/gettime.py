@@ -5,8 +5,8 @@ import requests
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from DaisyX import TIME_API_KEY, dispatcher
-from DaisyX.modules.disable import DisableAbleCommandHandler
+from AnkiVector import TIME_API_KEY, dispatcher
+from AnkiVector.modules.disable import DisableAbleCommandHandler
 
 
 def generate_time(to_find: str, findtype: List[str]) -> str:
