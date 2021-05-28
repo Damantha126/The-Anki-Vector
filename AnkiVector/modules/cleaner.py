@@ -9,9 +9,9 @@ from telegram.ext import (
     run_async,
 )
 
-from DaisyX import ALLOW_EXCL, CustomCommandHandler, dispatcher
-from DaisyX.modules.disable import DisableAbleCommandHandler
-from DaisyX.modules.helper_funcs.chat_status import (
+from AnkiVector import ALLOW_EXCL, CustomCommandHandler, dispatcher
+from AnkiVector.modules.disable import DisableAbleCommandHandler
+from AnkiVector.modules.helper_funcs.chat_status import (
     bot_can_delete,
     connection_status,
     dev_plus,
