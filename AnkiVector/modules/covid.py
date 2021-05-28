@@ -2,8 +2,8 @@ import requests
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from DaisyX import dispatcher
-from DaisyX.modules.disable import DisableAbleCommandHandler
+from AnkiVector import dispatcher
+from AnkiVector.modules.disable import DisableAbleCommandHandler
 
 
 @run_async
@@ -20,5 +20,5 @@ def covid(update: Update, context: CallbackContext):
     message.reply_text(reply_text, parse_mode=ParseMode.MARKDOWN)
 
 
-COVID_HANDLER = DisableAbleCommandHandler(["covid", "corona"], covid)
+COVID_HANDLER = DisableAbleCommandHandler(["covid", "covid19", "corona"], covid)
 dispatcher.add_handler(COVID_HANDLER)
