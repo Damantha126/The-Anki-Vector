@@ -1,0 +1,21 @@
+name: Sed-replacer
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@master
+        with:
+          find: "SnowGirl"
+          replace: "AnkiVector"
+      - name: Pull All Updates
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'Welcome to Anki Vector'
+          commit_options: '--no-verify'
+          repository: .
+          commit_user_name: Damantha126
+          commit_user_email: damanthaja@gmail.com
+          commit_author: Damantha126 <damanthaja@gmail.com>
