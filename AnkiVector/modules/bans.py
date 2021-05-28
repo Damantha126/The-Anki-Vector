@@ -5,7 +5,7 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from DaisyX import (
+from AnkiVector import (
     DEMONS,
     DEV_USERS,
     DRAGONS,
@@ -15,8 +15,8 @@ from DaisyX import (
     WOLVES,
     dispatcher,
 )
-from DaisyX.modules.disable import DisableAbleCommandHandler
-from DaisyX.modules.helper_funcs.chat_status import (
+from AnkiVector.modules.disable import DisableAbleCommandHandler
+from AnkiVector.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     connection_status,
@@ -26,9 +26,9 @@ from DaisyX.modules.helper_funcs.chat_status import (
     user_admin,
     user_can_ban,
 )
-from DaisyX.modules.helper_funcs.extraction import extract_user_and_text
-from DaisyX.modules.helper_funcs.string_handling import extract_time
-from DaisyX.modules.log_channel import gloggable, loggable
+from AnkiVector.modules.helper_funcs.extraction import extract_user_and_text
+from AnkiVector.modules.helper_funcs.string_handling import extract_time
+from AnkiVector.modules.log_channel import gloggable, loggable
 
 
 @run_async
