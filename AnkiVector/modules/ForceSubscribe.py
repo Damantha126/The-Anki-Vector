@@ -1,4 +1,4 @@
-#    Copyright (C) 2020-2021 by @Damantha_Jasinghe
+#    Copyright (C) 2020-2021 by @InukaAsith
 #    This programme is a part of Liza TG bot project
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -26,9 +26,9 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
-from AnkiVector import DRAGONS as SUDO_USERS
-from AnkiVector import pbot
-from AnkiVector.modules.sql import forceSubscribe_sql as sql
+from DaisyX import DRAGONS as SUDO_USERS
+from DaisyX import pbot
+from DaisyX.modules.sql import forceSubscribe_sql as sql
 
 logging.basicConfig(level=logging.INFO)
 
@@ -125,7 +125,7 @@ def _check_member(client, message):
                     )
                 except ChatAdminRequired:
                     sent_message.edit(
-                        "❗ **Anki Vector is not admin here..**\n__Give me ban permissions and retry.. \n#Ending FSub...__"
+                        "❗ **Daisy is not admin here..**\n__Give me ban permissions and retry.. \n#Ending FSub...__"
                     )
 
             except ChatAdminRequired:
@@ -195,8 +195,10 @@ def config(client, message):
 
 __help__ = """
 *ForceSubscribe:*
-✪ Anki Vector can mute members who are not subscribed your channel until they subscribe
+
+✪ Daisy can mute members who are not subscribed your channel until they subscribe
 ✪ When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
+
 *Setup*
 1) First of all add me in the group as admin with ban users permission and in the channel as admin.
 Note: Only creator of the group can setup me and i will not allow force subscribe again if not done so.
@@ -206,7 +208,9 @@ Note: Only creator of the group can setup me and i will not allow force subscrib
 ✪ /ForceSubscribe no/off/disable - To turn of ForceSubscribe.
 ✪ /ForceSubscribe {channel username} - To turn on and setup the channel.
 ✪ /ForceSubscribe clear - To unmute all members who muted by me.
+
 Note: /FSub is an alias of /ForceSubscribe
+
  
 """
-__mod_name__ = "Force Subscribe"
+__mod_name__ = "📢 Force Subscribe 💭"
