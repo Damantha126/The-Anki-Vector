@@ -5,8 +5,8 @@ import requests
 from telethon import types
 from telethon.tl import functions
 
-from DaisyX import telethn
-from DaisyX.events import register
+from AnkiVector import telethn
+from AnkiVector.events import register
 
 langi = "en"
 
