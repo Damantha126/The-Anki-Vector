@@ -29,7 +29,7 @@ from AnkiVector import (
     dispatcher,
     sw,
 )
-from DaisyX.modules.helper_funcs.chat_status import (
+from AnkiVector.modules.helper_funcs.chat_status import (
     is_user_admin,
     support_plus,
     user_admin,
