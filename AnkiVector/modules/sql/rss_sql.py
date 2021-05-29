@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, Integer, UnicodeText
 
-from DaisyX.modules.sql import BASE, SESSION
+from AnkiVector.modules.sql import BASE, SESSION
 
 
 class RSS(BASE):
