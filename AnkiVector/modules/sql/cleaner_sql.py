@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Boolean, Column, UnicodeText
 
-from DaisyX.modules.sql import BASE, SESSION
+from AnkiVector.modules.sql import BASE, SESSION
 
 
 class CleanerBlueTextChatSettings(BASE):
