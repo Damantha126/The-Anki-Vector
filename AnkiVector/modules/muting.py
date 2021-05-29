@@ -5,17 +5,17 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
 
-from DaisyX import LOGGER, TIGERS, dispatcher
-from DaisyX.modules.helper_funcs.chat_status import (
+from AnkiVector import LOGGER, TIGERS, dispatcher
+from AnkiVector.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     connection_status,
     is_user_admin,
     user_admin,
 )
-from DaisyX.modules.helper_funcs.extraction import extract_user, extract_user_and_text
-from DaisyX.modules.helper_funcs.string_handling import extract_time
-from DaisyX.modules.log_channel import loggable
+from AnkiVector.modules.helper_funcs.extraction import extract_user, extract_user_and_text
+from AnkiVector.modules.helper_funcs.string_handling import extract_time
+from AnkiVector.modules.log_channel import loggable
 
 
 @run_async
@@ -390,7 +390,7 @@ dispatcher.add_handler(UNMUTE_HANDLER)
 dispatcher.add_handler(TEMPMUTE_HANDLER)
 dispatcher.add_handler(STEMPMUTE_HANDLER)
 
-__mod_name__ = "Muting 🔇"
+__mod_name__ = "Muting"
 __handlers__ = [
     MUTE_HANDLER,
     SMUTE_HANDLER,
