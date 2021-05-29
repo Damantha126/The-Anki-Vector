@@ -13,9 +13,9 @@ if is_module_loaded(FILENAME):
     from telegram.ext import CommandHandler, JobQueue, run_async
     from telegram.utils.helpers import escape_markdown
 
-    from DaisyX import EVENT_LOGS, LOGGER, dispatcher
-    from DaisyX.modules.helper_funcs.chat_status import user_admin
-    from DaisyX.modules.sql import log_channel_sql as sql
+    from AnkiVector import EVENT_LOGS, LOGGER, dispatcher
+    from AnkiVector.modules.helper_funcs.chat_status import user_admin
+    from AnkiVector.modules.sql import log_channel_sql as sql
 
     def loggable(func):
         @wraps(func)
@@ -204,7 +204,7 @@ if is_module_loaded(FILENAME):
  *3.* forwarding the `/setlog` to the group
 """
 
-    __mod_name__ = "Logger 📝"
+    __mod_name__ = "Logger"
 
     LOG_HANDLER = CommandHandler("logchannel", logging)
     SET_LOG_HANDLER = CommandHandler("setlog", setlog)
