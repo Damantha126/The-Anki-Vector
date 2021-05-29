@@ -5,8 +5,8 @@ from telethon import events
 from telethon.errors.rpcerrorlist import MessageDeleteForbiddenError
 from telethon.tl.types import ChannelParticipantsAdmins
 
-from DaisyX import DEV_USERS, telethn
-from DaisyX.modules.helper_funcs.telethn.chatstatus import (
+from AnkiVector import DEV_USERS, telethn
+from AnkiVector.modules.helper_funcs.telethn.chatstatus import (
     can_delete_messages,
     user_is_admin,
 )
@@ -102,4 +102,4 @@ __help__ = """
  ✪ /purge <integer X>*:* deletes the replied message, and X messages following it if replied to a message.
 """
 
-__mod_name__ = "Purges 🚿"
+__mod_name__ = "Purges"
