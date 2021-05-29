@@ -25,25 +25,25 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-from DaisyX import TIGERS, WOLVES, dispatcher
-from DaisyX.modules.disable import DisableAbleCommandHandler
-from DaisyX.modules.helper_funcs.chat_status import (
+from AnkiVector import TIGERS, WOLVES, dispatcher
+from AnkiVector.modules.disable import DisableAbleCommandHandler
+from AnkiVector.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     is_user_admin,
     user_admin,
     user_admin_no_reply,
 )
-from DaisyX.modules.helper_funcs.extraction import (
+from AnkiVector.modules.helper_funcs.extraction import (
     extract_text,
     extract_user,
     extract_user_and_text,
 )
-from DaisyX.modules.helper_funcs.filters import CustomFilters
-from DaisyX.modules.helper_funcs.misc import split_message
-from DaisyX.modules.helper_funcs.string_handling import split_quotes
-from DaisyX.modules.log_channel import loggable
-from DaisyX.modules.sql import warns_sql as sql
+from AnkiVector.modules.helper_funcs.filters import CustomFilters
+from AnkiVector.modules.helper_funcs.misc import split_message
+from AnkiVector.modules.helper_funcs.string_handling import split_quotes
+from AnkiVector.modules.log_channel import loggable
+from AnkiVector.modules.sql import warns_sql as sql
 
 WARN_HANDLER_GROUP = 9
 CURRENT_WARNING_FILTER_STRING = "<b>Current warning filters in this chat:</b>\n"
@@ -511,7 +511,7 @@ be a sentence, encompass it with quotes, as such: `/addwarn "very angry" This is
  ✪ /strongwarn <on/yes/off/no>*:* If set to on, exceeding the warn limit will result in a ban. Else, will just punch.
 """
 
-__mod_name__ = "Warnings ❗️"
+__mod_name__ = "Warnings"
 
 WARN_HANDLER = CommandHandler("warn", warn_user, filters=Filters.group)
 RESET_WARN_HANDLER = CommandHandler(
