@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, Integer, String, UnicodeText
 
-from DaisyX.modules.sql import BASE, SESSION
+from AnkiVector.modules.sql import BASE, SESSION
 
 DEF_COUNT = 1
 DEF_LIMIT = 0
