@@ -28,7 +28,7 @@ if is_module_loaded(FILENAME):
         is_user_admin,
         user_admin,
     )
-    from DaisyX.modules.sql import disable_sql as sql
+    from AnkiVector.modules.sql import disable_sql as sql
 
     DISABLE_CMDS = []
     DISABLE_OTHER = []
