@@ -12,7 +12,7 @@ import aiohttp
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from DaisyX import pbot
+from AnkiVector import pbot
 
 session = aiohttp.ClientSession()
 progress_callback_data = {}
