@@ -12,10 +12,10 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-from DaisyX import DRAGONS, LOGGER, TIGERS, WOLVES, dispatcher
-from DaisyX.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from DaisyX.modules.log_channel import loggable
-from DaisyX.modules.sql import reporting_sql as sql
+from AnkiVector import DRAGONS, LOGGER, TIGERS, WOLVES, dispatcher
+from AnkiVector.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from AnkiVector.modules.log_channel import loggable
+from AnkiVector.modules.sql import reporting_sql as sql
 
 REPORT_GROUP = 12
 REPORT_IMMUNE_USERS = DRAGONS + TIGERS + WOLVES
@@ -286,7 +286,7 @@ dispatcher.add_handler(SETTING_HANDLER)
 dispatcher.add_handler(REPORT_HANDLER, REPORT_GROUP)
 dispatcher.add_handler(ADMIN_REPORT_HANDLER, REPORT_GROUP)
 
-__mod_name__ = "Reporting ⚠️"
+__mod_name__ = "Reporting"
 __handlers__ = [
     (REPORT_HANDLER, REPORT_GROUP),
     (ADMIN_REPORT_HANDLER, REPORT_GROUP),
