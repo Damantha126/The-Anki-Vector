@@ -13,7 +13,7 @@ import AnkiVector.modules.sql.blacklist_sql as blacklistsql
 # from AnkiVector.modules.sql import cust_filters_sql as filtersql
 # import AnkiVector.modules.sql.welcome_sql as welcsql
 import AnkiVector.modules.sql.locks_sql as locksql
-import DaisyX.modules.sql.notes_sql as sql
+import AnkiVector.modules.sql.notes_sql as sql
 
 # from AnkiVector.modules.rules import get_rules
 import AnkiVector.modules.sql.rules_sql as rulessql
