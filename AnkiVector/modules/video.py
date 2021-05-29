@@ -16,8 +16,8 @@ from youtube_dl.utils import (
     XAttrMetadataError,
 )
 
-from DaisyX.events import register
-from DaisyX.utils import progress
+from AnkiVector.events import register
+from AnkiVector.utils import progress
 
 try:
     from youtubesearchpython import SearchVideos
