@@ -5,8 +5,8 @@ from pyrogram import filters
 from pytube import YouTube
 from youtubesearchpython import VideosSearch
 
-from DaisyX import LOGGER, pbot
-from DaisyX.utils.ut import get_arg
+from AnkiVector import LOGGER, pbot
+from AnkiVector.utils.ut import get_arg
 
 
 def yt_search(song):
@@ -85,4 +85,4 @@ __help__ = """
 
 """
 
-__mod_name__ = "Music 🎧"
+__mod_name__ = "Music"
