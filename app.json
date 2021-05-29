@@ -6,9 +6,9 @@
          "anime",
          "group",
          "manager",
-         "DaisyX"
+         "Ankivector"
       ],   
-   "repository": "https://github.com/Damantha126/Vector",
+   "repository": "https://github.com/Damantha126/The-Anki-Vector",
    "addons": [
       {
          "options": {
@@ -179,6 +179,6 @@
       "manager",
       "daisy"
    ],
-   "name": "Daisy X",
-   "repository": "https://github.com/Damantha126/Vector"
+   "name": "Ankivector",
+   "repository": "https://github.com/Damantha126/The-Anki-Vector"
 }
