@@ -16,8 +16,8 @@ from telegram import (
 from telegram.ext import CallbackContext, run_async
 from telegram.utils.helpers import mention_html
 
-from DaisyX import dispatcher
-from DaisyX.modules.disable import DisableAbleCommandHandler
+from AnkiVector import dispatcher
+from AnkiVector.modules.disable import DisableAbleCommandHandler
 
 combot_stickers_url = "https://combot.org/telegram/stickers?q="
 
@@ -458,7 +458,7 @@ __help__ = """
 • `/stickers`*:* Find stickers for given term on combot sticker catalogue
 """
 
-__mod_name__ = "Stickers 🎉"
+__mod_name__ = "Stickers"
 STICKERID_HANDLER = DisableAbleCommandHandler("stickerid", stickerid)
 GETSTICKER_HANDLER = DisableAbleCommandHandler("getsticker", getsticker)
 KANG_HANDLER = DisableAbleCommandHandler("kang", kang, admin_ok=True)
