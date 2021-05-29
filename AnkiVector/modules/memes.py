@@ -9,8 +9,8 @@ from PIL import Image
 from spongemock import spongemock
 from telegram.ext import run_async
 
-from DaisyX import dispatcher
-from DaisyX.modules.disable import DisableAbleCommandHandler
+from AnkiVector import dispatcher
+from AnkiVector.modules.disable import DisableAbleCommandHandler
 
 
 @run_async
