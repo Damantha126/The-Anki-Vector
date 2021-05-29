@@ -1,4 +1,4 @@
-#    Copyright (C) 2020-2021 by @InukaAsith
+#    Copyright (C) 2020-2021 by @Damantha_Jasinghe
 #    This program is a part of DaisyX TG bot project
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -16,7 +16,7 @@
 
 from sqlalchemy import Column, Numeric, String
 
-from DaisyX.modules.sql import BASE, SESSION
+from AnkiVector.modules.sql import BASE, SESSION
 
 
 class forceSubscribe(BASE):
