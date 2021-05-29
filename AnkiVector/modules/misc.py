@@ -27,12 +27,12 @@ from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import escape_markdown
 from tswift import Song
 
-from DaisyX import DEV_USERS, OWNER_ID, dispatcher
-from DaisyX.__main__ import GDPR, STATS
-from DaisyX.modules.disable import DisableAbleCommandHandler
-from DaisyX.modules.helper_funcs.alternate import send_action, typing_action
-from DaisyX.modules.helper_funcs.chat_status import user_admin
-from DaisyX.modules.helper_funcs.filters import CustomFilters
+from AnkiVector import DEV_USERS, OWNER_ID, dispatcher
+from AnkiVector.__main__ import GDPR, STATS
+from AnkiVector.modules.disable import DisableAbleCommandHandler
+from AnkiVector.modules.helper_funcs.alternate import send_action, typing_action
+from AnkiVector.modules.helper_funcs.chat_status import user_admin
+from AnkiVector.modules.helper_funcs.filters import CustomFilters
 
 
 @run_async
@@ -655,7 +655,7 @@ __help__ = """
 \
 """
 
-__mod_name__ = "Miscs 🚀"
+__mod_name__ = "Miscs"
 
 APP_HANDLER = DisableAbleCommandHandler("app", app)
 LYRICS_HANDLER = DisableAbleCommandHandler("lyrics", lyrics, pass_args=True)
