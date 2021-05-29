@@ -17,7 +17,7 @@ from AnkiVector.modules.helper_funcs.chat_status import (
     dev_plus,
     user_admin,
 )
-from DaisyX.modules.sql import cleaner_sql as sql
+from AnkiVector.modules.sql import cleaner_sql as sql
 
 if ALLOW_EXCL:
     CMD_STARTERS = ("/", "!")
