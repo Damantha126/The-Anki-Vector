@@ -2,8 +2,8 @@ from geopy.geocoders import Nominatim
 from telegram import Location, ParseMode
 from telegram.ext import CommandHandler, run_async
 
-from DaisyX import dispatcher
-from DaisyX.modules.helper_funcs.chat_status import user_admin
+from AnkiVector import dispatcher
+from AnkiVector.modules.helper_funcs.chat_status import user_admin
 
 GMAPS_LOC = "https://maps.googleapis.com/maps/api/geocode/json"
 
