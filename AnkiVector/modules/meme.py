@@ -8,11 +8,11 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import escape_markdown
 
-import DaisyX.modules.helper_funcs.fun_strings as fun
-from DaisyX import DEMONS, DRAGONS, dispatcher
-from DaisyX.modules.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
-from DaisyX.modules.helper_funcs.alternate import typing_action
-from DaisyX.modules.helper_funcs.extraction import extract_user
+import AnkiVector.modules.helper_funcs.fun_strings as fun
+from AnkiVector import DEMONS, DRAGONS, dispatcher
+from AnkiVector.modules.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
+from AnkiVector.modules.helper_funcs.alternate import typing_action
+from AnkiVector.modules.helper_funcs.extraction import extract_user
 
 
 @run_async
@@ -529,7 +529,7 @@ All regex filters can be disabled incase u don't want... like: `/disable goodnig
 
 """
 
-__mod_name__ = "Memes 😜"
+__mod_name__ = "Memes"
 
 
 PAT_HANDLER = DisableAbleCommandHandler("pat", pat)
