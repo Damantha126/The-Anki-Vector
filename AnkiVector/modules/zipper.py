@@ -5,9 +5,9 @@ import zipfile
 from telethon import types
 from telethon.tl import functions
 
-from DaisyX import TEMP_DOWNLOAD_DIRECTORY
-from DaisyX import telethn as client
-from DaisyX.events import register
+from AnkiVector import TEMP_DOWNLOAD_DIRECTORY
+from AnkiVector import telethn as client
+from AnkiVector.events import register
 
 
 async def is_register_admin(chat, user):
@@ -214,4 +214,4 @@ __help__ = """
  ✪ /unzip: reply to a telegram file to decompress it from the .zip format
 """
 
-__mod_name__ = "Zipper 🗂"
+__mod_name__ = "Zipper"
