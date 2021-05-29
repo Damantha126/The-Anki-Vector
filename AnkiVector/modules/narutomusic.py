@@ -17,8 +17,8 @@ from youtube_dl.utils import (
     XAttrMetadataError,
 )
 
-from DaisyX.events import register
-from DaisyX.utils import progress
+from AnkiVector.events import register
+from AnkiVector.utils import progress
 
 try:
 
@@ -270,4 +270,4 @@ __help__ = """
  ➩ /vsong <songname artist(optional)>: uploads the video song in it's best quality available
 """
 
-__mod_name__ = "Songs 🎸"
+__mod_name__ = "Songs"
