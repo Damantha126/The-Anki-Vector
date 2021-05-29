@@ -4,8 +4,8 @@ import importlib
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
-from DaisyX import dispatcher, telethn
-from DaisyX.__main__ import (
+from AnkiVector import dispatcher, telethn
+from AnkiVector.__main__ import (
     CHAT_SETTINGS,
     DATA_EXPORT,
     DATA_IMPORT,
@@ -16,7 +16,7 @@ from DaisyX.__main__ import (
     USER_INFO,
     USER_SETTINGS,
 )
-from DaisyX.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from AnkiVector.modules.helper_funcs.chat_status import dev_plus, sudo_plus
 
 
 @run_async
