@@ -3,7 +3,7 @@ import threading
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText, distinct, func
 from sqlalchemy.dialects import postgresql
 
-from DaisyX.modules.sql import BASE, SESSION
+from AnkiVector.modules.sql import BASE, SESSION
 
 
 class Warns(BASE):
