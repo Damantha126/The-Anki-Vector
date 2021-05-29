@@ -3,8 +3,8 @@ import random
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 
-from DaisyX import dispatcher
-from DaisyX.modules.disable import DisableAbleCommandHandler
+from AnkiVector import dispatcher
+from AnkiVector.modules.disable import DisableAbleCommandHandler
 
 reactions = [
     "( ͡° ͜ʖ ͡°)",
