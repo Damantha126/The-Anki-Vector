@@ -1,5 +1,5 @@
 {
-      "name": "Daisy X",
+      "name": "The Anki Vector",
       "description": "An Anime themed Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -8,7 +8,7 @@
          "manager",
          "DaisyX"
       ],   
-   "repository": "https://github.com/Inukaasith/daisy-x",
+   "repository": "https://github.com/Damantha126/Vector",
    "addons": [
       {
          "options": {
@@ -49,16 +49,16 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1141839926"
+         "value": "1391755824"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "InukaAsith"
+         "value": "Damantha_Jasinghe"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "MyAwesomeSupportGroupGoesHere"
+         "value": "ankivectorUpdates"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -83,7 +83,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "1141839926 1186105905 1204360944 1082702383 1321570688 1116300562 694380168 1347096051"
+         "value": "1391755824 1758509403 1848277863"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -97,22 +97,22 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "1141839926 1186105905 1204360944 1082702383 1321570688 1116300562 694380168 1347096051"
+         "value": "1391755824 1758509403 1848277863"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "1141839926 1186105905 1204360944 1082702383 1321570688 1116300562 694380168 1347096051"
+         "value": "1391755824 1758509403 1848277863"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": "1141839926 1186105905 1204360944 1082702383 1321570688 1116300562 694380168 1347096051"
+         "value": "1391755824 1758509403 1848277863"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "1141839926 1186105905 1204360944 1082702383 1321570688 1116300562 694380168 1347096051"
+         "value": "1391755824 1758509403 1848277863"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
@@ -129,9 +129,9 @@
          "value": ""
       },
       "URL": {
-         "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
+         "description": "The Heroku App URL",
          "required": false,
-         "value": ""
+         "value": "https://<appname>.herokuapp.com/"
       },
       "No_LOAD": {
          "description": "Dont load these modules cause they shit, space separation",
@@ -180,5 +180,5 @@
       "daisy"
    ],
    "name": "Daisy X",
-   "repository": "https://github.com/Inukaasith/daisy-x"
+   "repository": "https://github.com/Damantha126/Vectorx"
 }
