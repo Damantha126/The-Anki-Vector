@@ -3,8 +3,8 @@ from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 from wikipedia.exceptions import DisambiguationError, PageError
 
-from DaisyX import dispatcher
-from DaisyX.modules.disable import DisableAbleCommandHandler
+from AnkiVector import dispatcher
+from AnkiVector.modules.disable import DisableAbleCommandHandler
 
 
 @run_async
