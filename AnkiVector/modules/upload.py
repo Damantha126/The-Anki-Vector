@@ -7,9 +7,9 @@ import traceback
 import aiohttp
 from telethon import events
 
-from DaisyX import telethn as bot
-from DaisyX.modules.urluploader import download_file
-from DaisyX.utils.uputils import humanbytes, progress
+from AnkiVector import telethn as bot
+from AnkiVector.modules.urluploader import download_file
+from AnkiVector.utils.uputils import humanbytes, progress
 
 DOWNLOADPATH = "Downloads/"
 
@@ -83,7 +83,7 @@ async def tsh(event):
 
             str(time.time() - start)
             await orta.edit(
-                f"File Successfully Uploaded to TransferSh.\n\nLink 👉 {download_link}\nExpired Date 👉 {final_date}\n\nUploaded by @Daisyxbot 👸"
+                f"File Successfully Uploaded to TransferSh.\n\nLink 👉 {download_link}\nExpired Date 👉 {final_date}\n\nUploaded by @TheAnkiVectorbot 👸"
             )
         except Exception as e:
             traceback.print_exc()
@@ -118,7 +118,7 @@ async def tmp(event):
 
             str(time.time() - start)
             await orta.edit(
-                f"File Successfully Uploaded to TmpNinja.\n\nLink 👉 {download_link}\n\nUploaded by @Daisyxbot 👸"
+                f"File Successfully Uploaded to TmpNinja.\n\nLink 👉 {download_link}\n\nUploaded by @TheAnkiVectorbot 👸"
             )
         except Exception as e:
             traceback.print_exc()
@@ -159,7 +159,7 @@ async def up(event):
                 event.chat.id,
                 dosya,
                 force_document=True,
-                caption=f"Uploaded By @Daisyxbot",
+                caption=f"Uploaded By @TheAnkiVectorbot",
             )
         except Exception as e:
             traceback.print_exc()
@@ -184,7 +184,7 @@ __help__ = """
  ⦁ `/transfersh`*:* reply to a telegram file to upload it on transfersh and get direct download link
  ⦁ `/tmpninja`*:* reply to a telegram file to upload it on tmpninja and get direct download link
 
-© @ImJanindu 🇱🇰
+© @Damantha_Jasinghe 🇱🇰
 """
 
-__mod_name__ = "File To Link 🔗"
+__mod_name__ = "File To Link"
