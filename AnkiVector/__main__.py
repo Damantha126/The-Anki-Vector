@@ -107,7 +107,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Anki Vector Updates](https://t.me/ankivectorUpdates),"""
+Support them  [Damantha Jasinghe](t.me/Damantha_Jasinghe)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -362,12 +362,15 @@ def help_button(update, context):
 
 
 @run_async
-def AnkiVector_about_callback(update, context):
+def DaisyX_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*Here is the help for the About 🇱🇰 module: \nAnki Vector - A Powerful Telegram Group Manager 🎶\nPowerful Abilities \n• File To Link and URL Upload 📂\n• Youtube Downloader 🎵\nDeveloper 𝓓𝓪𝓶𝓪𝓷𝓽𝓱𝓪 𝓙𝓪𝓼𝓲𝓷𝓰𝓱𝓮 (https://t.me/Damantha_Jasinghe) 🇱🇰Anki Vector (https://t.me/TheAnkiVectorbot))"
-            f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
+            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Anki Vector Updates.* "
+            f"\n\n Join [AnkiVectorUpdates](https://t.me/ankivectorUpdates) To Keep Yourself Updated About {dispatcher.bot.first_name}"
+            f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
+            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
+            f"\n\nYou Can Know More About Me By Clicking The Below Buttons",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -377,12 +380,12 @@ def AnkiVector_about_callback(update, context):
                             text="How To Use Me", callback_data="aboutmanu_howto"
                         ),
                         InlineKeyboardButton(
-                            text="T & C", callback_data="aboutmanu_tac"
+                            text="Terms and Conditions", callback_data="aboutmanu_tac"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="❔Help & Commands", callback_data="help_back"
+                            text="Help", callback_data="help_back"
                         )
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="aboutmanu_back")],
@@ -401,7 +404,7 @@ def AnkiVector_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Anki Vector Upadtes](https://t.me/ankivectorUpdates).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Anki Vectr Support](https://t.me/AnkiSupport_Official).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -422,8 +425,8 @@ def AnkiVector_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [Anki](https://t.me/ankivectorUpdates)."
-            f"\n\n{dispatcher.bot.first_name}'s source code was written by Damantha"
+            f"\n\nBased on [Anki Vector Brother](https://t.me/TheVectorBrotherbot)."
+            f"\n\n{dispatcher.bot.first_name}'s source code was written by Damantha Jasinghe"
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -480,13 +483,13 @@ def AnkiVector_about_callback(update, context):
             text=f"<b> ｢ Terms and Conditions 」</b>\n"
             f"\n<i>To Use This Bot, You Need To Read Terms and Conditions Carefully.</i>\n"
             f"\n✪ We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
-            f"\n✪ Always try to keep credits, so \n  This hardwork is done by Infinity_Bots team spending many sleepless nights.. So, Respect it."
+            f"\n✪ Always try to keep credits, so \n  This hardwork is done by Anki Vector Updates team spending many sleepless nights.. So, Respect it."
             f"\n✪ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
-            f"\n✪ If you need to ask anything about \n  this bot, Go @ankivectorUpdates."
+            f"\n✪ If you need to ask anything about \n  this bot, Go @{SUPPORT_CHAT}."
             f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
             f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
-            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of Anki we are not resposible for anything."
-            f"\n\nFor any kind of help, related to this bot, Join @AnkiSupport_Official."
+            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of AnkiVectorBot we are not resposible for anything."
+            f"\n\nFor any kind of help, related to this bot, Join @{SUPPORT_CHAT}."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
@@ -825,7 +828,7 @@ def main():
     settings_callback_handler = CallbackQueryHandler(settings_button, pattern=r"stngs_")
 
     about_callback_handler = CallbackQueryHandler(
-        AnkiVector_about_callback, pattern=r"aboutmanu_"
+        DaisyX_about_callback, pattern=r"aboutmanu_"
     )
 
     donate_handler = CommandHandler("donate", donate)
