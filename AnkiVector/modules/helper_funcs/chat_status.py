@@ -389,6 +389,6 @@ def connection_status(func):
 
 
 # Workaround for circular import with connection.py
-from DaisyX.modules import connection
+from AnkiVector.modules import connection
 
 connected = connection.connected
