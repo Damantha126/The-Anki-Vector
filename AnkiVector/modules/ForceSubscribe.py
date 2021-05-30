@@ -1,4 +1,4 @@
-#    Copyright (C) 2020-2021 by @InukaAsith
+#    Copyright (C) 2020-2021 by @Damantha_Jasinghe
 #    This programme is a part of Liza TG bot project
 #
 #    This program is free software: you can redistribute it and/or modify
