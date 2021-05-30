@@ -100,7 +100,7 @@ def _check_member(client, message):
             except UserNotParticipant:
                 try:
                     sent_message = message.reply_text(
-                        "Welcome {} 🙏 \n **You havent joined our @{} Channel yet** 😭 \n \nPlease Join [Our Channel](https://t.me/{}) and hit the **UNMUTE ME** Button. \n \n ".format(
+                        "Welcome {} 🙏 \n **You havent joined our @{} Channel yet** 😭 \n \nPlease Join [Our Channel](https://t.me/{}) and hit the **UNMUTE ME** Button. \n \n \nඅපේ Telegram Channel එකට join වෙනකම් ඔයාට මේ group එකට messages send කරන්න බැහැ.\nඅපේ channel එකට join වෙලා පහළ තියෙන button එක click කරන්න\n\n".format(
                             message.from_user.mention, channel, channel
                         ),
                         disable_web_page_preview=True,
@@ -213,4 +213,4 @@ Note: /FSub is an alias of /ForceSubscribe
 
  
 """
-__mod_name__ = "📢 Force Subscribe 💭"
+__mod_name__ = "Force Subscribe"
