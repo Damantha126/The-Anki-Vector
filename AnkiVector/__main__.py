@@ -71,17 +71,15 @@ Hit /help to find my list of available commands
 
 buttons = [
     [
-        InlineKeyboardButton(text="📢Updates Channel 📢", url="https://t.me/ankivectorUpdates"),
-        InlineKeyboardButton(text="👥 Support Group 👥", url="https://t.me/AnkiSupport_Official"),
+        InlineKeyboardButton(text="📢Updates Channel", url="https://t.me/ankivectorUpdates"),
+        InlineKeyboardButton(text="👥 Support Group", url="https://t.me/AnkiSupport_Official"),
     ],
     [
-        InlineKeyboardButton(text="🤖 Our Bot list 🤖", url="https://t.me/ankivectorUpdates/13"),
         InlineKeyboardButton(text="💠 Bots Channel 💠", url="https://t.me/slhitbotofficial"),
 
     ],
     [
-        InlineKeyboardButton(text="🎲 INFO 🎲", callback_data="aboutmanu_"),
-        InlineKeyboardButton(text="❔ Help & Commands ❔", callback_data="help_back"),
+        InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
