@@ -410,10 +410,10 @@ def AnkiVector_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Admins Settings", callback_data="aboutmanu_permis"
+                            text="Admins", callback_data="aboutmanu_permis"
                         ),
                         InlineKeyboardButton(
-                            text="Anti Spam", callback_data="aboutmanu_spamprot"
+                            text="Help", callback_data="help_back"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="aboutmanu_")],
