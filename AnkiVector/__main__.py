@@ -75,7 +75,7 @@ buttons = [
         InlineKeyboardButton(text="👥 Support Group", url="https://t.me/AnkiSupport_Official"),
     ],
     [
-        InlineKeyboardButton(text="💠 Bots Channel 💠", url="https://t.me/slhitbotofficial"),
+        InlineKeyboardButton(text="💠Bots Channel", url="https://t.me/slhitbotofficial"),
 
     ],
     [
@@ -360,7 +360,7 @@ def help_button(update, context):
 
 
 @run_async
-def DaisyX_about_callback(update, context):
+def AnkiVector_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
