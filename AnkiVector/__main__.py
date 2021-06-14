@@ -826,7 +826,7 @@ def main():
     settings_callback_handler = CallbackQueryHandler(settings_button, pattern=r"stngs_")
 
     about_callback_handler = CallbackQueryHandler(
-        DaisyX_about_callback, pattern=r"aboutmanu_"
+        AnkiVector_about_callback, pattern=r"aboutmanu_"
     )
 
     donate_handler = CommandHandler("donate", donate)
