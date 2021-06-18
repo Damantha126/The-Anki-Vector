@@ -31,8 +31,7 @@ For Channel Music Play
  
  ** Channel Music Play **
 
-** ♦️ For linked group admins only **
-
+** For linked group admins only **
 - /cplay [song name] - play song you requested
 - /cdplay [song name] - play song you requested via deezer
 - /csplay [song name] - play song you requested via jio saavn
@@ -48,7 +47,6 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 
 
 ** ♦️ If you donlt like to play in linked group **
-
 1) Get your channel ID.
 2) Create a group with tittle: Channel Music: your_channel_id
 3) Add bot as Channel admin with full perms
@@ -56,7 +54,6 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 5) Simply send commands in your group.
 
 ** More tools **
-
 - /admincache: Updates admin info of your group. Try if bot isn't recognize admin
 - /userbotjoin: Invite @AnkivectorMusicbot Userbot to your chat 
 
