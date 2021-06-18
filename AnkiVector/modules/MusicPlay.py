@@ -4,19 +4,20 @@ __help__ = """
 2) Start a voice chat
 3) Try /play [song name] for the first time by an admin
 *) If userbot joined enjoy music, If not add @AnkivectorMusicbot to your group and retry
-For Channel Music Play
+
+** 🟡For Channel Music Play🟡 **
 1) Make @TheAnkiVectorMusicBot admin of your channel 
 2) Send /userbotjoinchannel in linked group
 3) Now send commands in linked group 
 
-** Groups Music Play **
+** ⚪️Groups Music Play⚪️ **
 • /play: Play song using youtube music
 • /play [yt url] : Play the given yt url
 • /play [reply yo audio]: Play replied audio
 • /dplay: Play song via deezer
 • /splay: Play song via jio saavn
  
- ** Playback **
+ ** 🟣Playback🟣 **
 • /player: Open Settings menu of player
 • /skip: Skips the current track
 • /pause: Pause track
@@ -26,7 +27,7 @@ For Channel Music Play
 • /playlist: Shows playlist
 *Player cmd and all other cmds except /play, /current  and /playlist  are only for admins of the group. 
 
-** Channel Music Play **
+** 🔴Channel Music Play🔴 **
 • /cplay [song name] - play song you requested
 • /cdplay [song name] - play song you requested via deezer
 • /csplay [song name] - play song you requested via jio saavn
@@ -47,14 +48,14 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 4) Add @AnkivectorMusicbot to the channel as an admin.
 5) Simply send commands in your group.
  
-** More tools **
+** ⚫️More tools⚫️ **
 • /admincache: Updates admin info of your group. Try if bot isn't recognize admin
 • /userbotjoin: Invite @AnkivectorMusicbot Userbot to your chat 
  
-** Assisten **
+** 🔷Assisten🔷 **
 @AnkivectorMusicbot
 
-** Bot **
+** 🔸Bot🔸 **
 @TheAnkiVectorMusicBot
 """
 __mod_name__ = "Music Play"
