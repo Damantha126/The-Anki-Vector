@@ -88,11 +88,6 @@ buttons = [
     ],
 ]
 
-STICKERS = (
-    "CAACAgUAAxkBAAITxGDHJXMsNfq_eRHFXNz41dgWuxohAAI3AwACjTI5Vo8E_nseC74dHwQ",
-    "CAACAgUAAxkBAAITxWDMND_LaAHKRmAK5nek5EC5pj3LAAJ4AgACAio4Vpwr-wGDWdKyHwQ",
-)
-
 
 HELP_STRINGS = f"""
 *Main Commands :* [🤖](https://telegra.ph/file/e10a45d0433a1ab6fed7b.jpg)
@@ -223,7 +218,6 @@ def start(update: Update, context: CallbackContext):
                 IMPORTED["rules"].send_rules(update, args[0], from_pm=True)
 
         else:
-            update.reply_sticker(random.choice(STICKERS))
             update.effective_message.reply_text(
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
