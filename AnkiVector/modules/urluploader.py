@@ -1,10 +1,9 @@
-  
 import os
 import time
 
 import aiohttp
 
-from AnkiVector.uputils import humanbytes, time_formatter
+from AnkiVector.utils.uputils import humanbytes, time_formatter
 
 
 async def download_file(url, file_name, message, start_time, bot):
@@ -81,3 +80,11 @@ ETA: {}""".format(
                         print("Error", e)
                         # logger.info(str(e))
         return await response.release()
+__help__ = """
+* Url Upload *
+
+• /up : reply to a direct download link to upload it to telegram as files
+ 
+© @Damantha_Jasinghe 🇱🇰
+"""
+__mod_name__ = "URL Upload"
