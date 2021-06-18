@@ -12,37 +12,37 @@ For Channel Music Play
 ** Commands **
  
  ** Groups Music Play **
-- /play: Play song using youtube music
-- /play [yt url] : Play the given yt url
-- /play [reply yo audio]: Play replied audio
-- /dplay: Play song via deezer
-- /splay: Play song via jio saavn
+• /play: Play song using youtube music
+• /play [yt url] : Play the given yt url
+• /play [reply yo audio]: Play replied audio
+• /dplay: Play song via deezer
+• /splay: Play song via jio saavn
 
 ** Playback **
-- /player: Open Settings menu of player
-- /skip: Skips the current track
-- /pause: Pause track
-- /resume: Resumes the paused track
-- /end: Stops media playback
-- /current: Shows the current Playing track
-- /playlist: Shows playlist
+• /player: Open Settings menu of player
+• /skip: Skips the current track
+• /pause: Pause track
+• /resume: Resumes the paused track
+• /end: Stops media playback
+• /current: Shows the current Playing track
+• /playlist: Shows playlist
 *Player cmd and all other cmds except /play, /current  and /playlist  are only for admins of the group.
  
  
  ** Channel Music Play **
 
 ** For linked group admins only **
-- /cplay [song name] - play song you requested
-- /cdplay [song name] - play song you requested via deezer
-- /csplay [song name] - play song you requested via jio saavn
-- /cplaylist - Show now playing list
-- /cccurrent - Show now playing
-- /cplayer - open music player settings panel
-- /cpause - pause song play
-- /cresume - resume song play
-- /cskip - play next song
-- /cend - stop music play
-- /userbotjoinchannel - invite assistant to your chat
+• /cplay [song name] - play song you requested
+• /cdplay [song name] - play song you requested via deezer
+• /csplay [song name] - play song you requested via jio saavn
+• /cplaylist - Show now playing list
+• /cccurrent - Show now playing
+• /cplayer - open music player settings panel
+• /cpause - pause song play
+• /cresume - resume song play
+• /cskip - play next song
+• /cend - stop music play
+• /userbotjoinchannel - invite assistant to your chat
 channel is also can be used instead of c ( /cplay = /channelplay )
 
 
@@ -54,8 +54,8 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 5) Simply send commands in your group.
 
 ** More tools **
-- /admincache: Updates admin info of your group. Try if bot isn't recognize admin
-- /userbotjoin: Invite @AnkivectorMusicbot Userbot to your chat 
+• /admincache: Updates admin info of your group. Try if bot isn't recognize admin
+• /userbotjoin: Invite @AnkivectorMusicbot Userbot to your chat 
 
 ** Assisten **
 @AnkivectorMusicbot
