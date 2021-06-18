@@ -75,8 +75,8 @@ buttons = [
         InlineKeyboardButton(text="👥 Support Group", url="https://t.me/AnkiSupport_Official"),
     ],
     [
-        InlineKeyboardButton(text="💠Bots Channel", url="https://t.me/slhitbotofficial"),
-
+        InlineKeyboardButton(text="📚Bots Channel", url="https://t.me/slhitbotofficial"),
+        InlineKeyboardButton(text="📜Source", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
     ],
     [
         InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
