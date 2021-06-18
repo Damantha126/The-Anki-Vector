@@ -3,7 +3,7 @@ __help__ = """
 1) Make bot admin (Group and in channel if use cplay)
 2) Start a voice chat
 3) Try /play [song name] for the first time by an admin
-*) If userbot joined enjoy music, If not add @AnkivectorMusicbot to your group and retry
+4) If userbot joined enjoy music, If not add @AnkivectorMusicbot to your group and retry
 
 ** 🟡For Channel Music Play🟡 **
 1) Make @TheAnkiVectorMusicBot admin of your channel 
@@ -25,7 +25,7 @@ __help__ = """
 • /end: Stops media playback
 • /current: Shows the current Playing track
 • /playlist: Shows playlist
-*Player cmd and all other cmds except /play, /current  and /playlist  are only for admins of the group. 
+Player cmd and all other cmds except /play, /current  and /playlist  are only for admins of the group. 
 
 ** 🔴Channel Music Play🔴 **
 • /cplay [song name] - play song you requested
