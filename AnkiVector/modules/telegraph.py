@@ -45,3 +45,9 @@ async def telegraph(client, message):
         )
     finally:
         os.remove(download_location)
+__help__ = """
+** Telegraph **
+Telegraph
+start comment
+"""
+__mod_name__ = "Telegraph"
