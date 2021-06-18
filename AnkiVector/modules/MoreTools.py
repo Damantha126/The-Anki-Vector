@@ -22,7 +22,7 @@ __help__ = """
  - /square : square Text
  - /blue : Blues text
 
-** Style Text **
+** Telegraph **
 - /telegraph <reply to jpg, jpeg, png, gif or mp4>: upload to telegraph.
 
 ** More **
