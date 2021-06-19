@@ -55,3 +55,7 @@ google-api-python-client
 wget
 fake-useragent
 asyncio
+aiofiles
+aiohttp
+requests
+wget
