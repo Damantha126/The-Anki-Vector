@@ -220,7 +220,7 @@ def start(update: Update, context: CallbackContext):
 
         else:
             first_name = update.effective_user.first_name
-            update.effective_message.reply_animation(
+            update.effective_message.reply_photo(
                 BOT_IMG,
                 caption=PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
