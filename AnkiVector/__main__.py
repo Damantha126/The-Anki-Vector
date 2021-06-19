@@ -63,7 +63,7 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm [𝒶𝓃𝓀𝒾  𝓋ℯ𝒸𝓉ℴ𝓇](https://telegra.ph/file/e10a45d0433a1ab6fed7b.jpg)
+Hello there, I'm [𝒶𝓃𝓀𝒾  𝓋ℯ𝒸𝓉ℴ𝓇
 I'm a Powerful group manager bot With Cool Modules. Made by [𝓓𝓪𝓶𝓪𝓷𝓽𝓱𝓪 𝓙𝓪𝓼𝓲𝓷𝓰𝓱𝓮• 🇱🇰](t.me/Damantha_Jasinghe)
 Hit /help to find my list of available commands
  
@@ -88,6 +88,7 @@ buttons = [
     ],
 ]
 
+BOT_IMG = "https://telegra.ph/file/e10a45d0433a1ab6fed7b.jpg"
 
 HELP_STRINGS = f"""
 *Main Commands :* [🤖](https://telegra.ph/file/e10a45d0433a1ab6fed7b.jpg)
@@ -219,6 +220,7 @@ def start(update: Update, context: CallbackContext):
 
         else:
             update.effective_message.reply_text(
+                BOT_IMG,
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
