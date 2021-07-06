@@ -63,35 +63,35 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm 𝓐𝓷𝓴𝓲 𝓥𝓮𝓬𝓽𝓸𝓻
-I'm a Powerful group manager bot With Cool Modules. Made by [𝓓𝓪𝓶𝓪𝓷𝓽𝓱𝓪 𝓙𝓪𝓼𝓲𝓷𝓰𝓱𝓮• 🇱🇰](t.me/Damantha_Jasinghe)
+Hello there, I'm Dofini
+I'm a Powerful group manager bot With Cool Modules. Made by [Pawan Theekshana• 🇱🇰](t.me/pawan_Theekshana)
 Hit /help to find my list of available commands
  
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="📢Updates Channel", url="https://t.me/ankivectorUpdates"),
-        InlineKeyboardButton(text="👥 Support Group", url="https://t.me/AnkiSupport_Official"),
+        InlineKeyboardButton(text="📢Updates Channel", url="https://t.me/DofiniUpdates"),
+        InlineKeyboardButton(text="👥 Support Group", url="https://t.me/DifiniSupport_Official"),
     ],
     [
         InlineKeyboardButton(text="📚Bots Channel", url="https://t.me/slhitbotofficial"),
-        InlineKeyboardButton(text="📜Source", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
+        InlineKeyboardButton(text="📜Source", url="https://youtu.be/tqEuFWIG-qs?t=4"),
     ],
     [
         InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Anki Vector to your group ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
+            text="➕ Add Dofini to your group ➕", url="t.me/DofiniDevbot?startgroup=true"
         ),
     ],
 ]
 
-ANKIVECTOR_IMG = "https://telegra.ph/file/e10a45d0433a1ab6fed7b.jpg"
+ANKIVECTOR_IMG = "https://telegra.ph/file/18e20df18b17ce5b3c9dc.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/e10a45d0433a1ab6fed7b.jpg)
+*Main Commands :* [🤖](https://telegra.ph/file/18e20df18b17ce5b3c9dc.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -106,7 +106,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Damantha Jasinghe](t.me/Damantha_Jasinghe)"""
+Support them  [Pawan Theekshana](t.me/Pawan_Theekshana)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
