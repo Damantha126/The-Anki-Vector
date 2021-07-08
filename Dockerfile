@@ -65,11 +65,11 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/AnkiVector
-RUN git clone -b shiken https://github.com/Infinity-Bots/LizaAnkiVector /root/AnkiVector
+RUN git clone -b shiken https://github.com/Damantha126/The-Anki-Vector /root/AnkiVector
 WORKDIR /root/AnkiVector
 
 #Copy config file to /root/AnkiVector/AnkiVector
-COPY ./AnkiVector/sample_config.py ./DaisyX/config.py* /root/AnkiVector/AnkiVector/
+COPY ./AnkiVector/sample_config.py ./AnkiVector/config.py* /root/AnkiVector/AnkiVector/
 
 ENV PATH="/home/bot/bin:$PATH"
 
