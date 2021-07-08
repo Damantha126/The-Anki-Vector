@@ -1,7 +1,7 @@
 # The-Anki-Vector-Bot
 # The-Anki-Vector-Bot Based on Python Telegram Bot
 <p align="leaft">
-  <img src="https://telegra.ph/file/627c0c014c6cae0d25a78.jpg" width='600"'>
+  <img src="https://telegra.ph/file/3b6aa07aac530199d5358.png" width='600"'>
 </p>
 # 2 Branches available. this is main brach. swith advaced fr all fetures
 
