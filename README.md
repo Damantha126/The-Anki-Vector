@@ -33,5 +33,12 @@ The Advanced Branch (For PRO's)
 
 The Anki Vector bot(advanced)
 
+### Credits ❤
+<details><summary>All Credits Here</summary>
+<p>
+
+**[Inuka Asith](https://github.com/inukaasith)** ▪ **[Prabasha](https://github.com/prabhasha-p/HexzyBot)** ▪ **[Im Janindu](https://github.com/imjanindu)** ▪ **[Devil](https://github.com/lucifeermorningstar)** ▪ **[Miss-Valentina](https://github.com/Miss-Valentina)** ▪ **[Mr-Dark-Prince](https://github.com/Mr-Dark-Prince/)** ▪ **[Anime Kaizoku](https://github.com/AnimeKaizoku)** ▪ **[thehamkercat](https://github.com/thehamkercat/)**
+</details>
+
 ## Special Credits
 - [Damantha](https://github.com/Damantha126) - A Co-Developer of Project
