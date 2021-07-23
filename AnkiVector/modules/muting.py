@@ -13,7 +13,10 @@ from AnkiVector.modules.helper_funcs.chat_status import (
     is_user_admin,
     user_admin,
 )
-from AnkiVector.modules.helper_funcs.extraction import extract_user, extract_user_and_text
+from AnkiVector.modules.helper_funcs.extraction import (
+    extract_user,
+    extract_user_and_text,
+)
 from AnkiVector.modules.helper_funcs.string_handling import extract_time
 from AnkiVector.modules.log_channel import loggable
 

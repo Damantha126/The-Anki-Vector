@@ -182,7 +182,7 @@ def extract_user_fban(message: Message, args: List[str]) -> Optional[int]:
 
 
 async def get_user(event):
-    """ Get the user from argument or replied message. """
+    """Get the user from argument or replied message."""
     if event.reply_to_msg_id:
         previous_message = await event.get_reply_message()
         if previous_message:

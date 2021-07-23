@@ -6,7 +6,10 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters, MessageHandler, run_async
 
 from AnkiVector import dispatcher
-from AnkiVector.modules.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
+from AnkiVector.modules.disable import (
+    DisableAbleCommandHandler,
+    DisableAbleMessageHandler,
+)
 from AnkiVector.modules.sql import afk_sql as sql
 from AnkiVector.modules.users import get_user_id
 

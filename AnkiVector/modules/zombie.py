@@ -49,7 +49,7 @@ async def is_administrator(user_id: int, message):
 
 @telethn.on(events.NewMessage(pattern=f"^[!/]zombies ?(.*)"))
 async def zombies(event):
-    """ For .zombies command, list all the zombies in a chat. """
+    """For .zombies command, list all the zombies in a chat."""
 
     con = event.pattern_match.group(1).lower()
     del_u = 0

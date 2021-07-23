@@ -8,7 +8,11 @@ from telegram.ext import CallbackContext, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
 
 from AnkiVector import DEMONS, DEV_USERS, DRAGONS, OWNER_ID, TIGERS, WOLVES, dispatcher
-from AnkiVector.modules.helper_funcs.chat_status import dev_plus, sudo_plus, whitelist_plus
+from AnkiVector.modules.helper_funcs.chat_status import (
+    dev_plus,
+    sudo_plus,
+    whitelist_plus,
+)
 from AnkiVector.modules.helper_funcs.extraction import extract_user
 from AnkiVector.modules.log_channel import gloggable
 

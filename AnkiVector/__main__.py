@@ -71,16 +71,25 @@ Hit /help to find my list of available commands
 
 buttons = [
     [
-        InlineKeyboardButton(text="📢Updates Channel", url="https://t.me/ankivectorUpdates"),
-        InlineKeyboardButton(text="👥 Support Group", url="https://t.me/AnkiSupport_Official"),
-    ],
-    [
-        InlineKeyboardButton(text="📜Source", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
-        InlineKeyboardButton(text="❔ Help", url="http://t.me/TheAnkiVectorbot?start=help"),
+        InlineKeyboardButton(
+            text="📢Updates Channel", url="https://t.me/ankivectorUpdates"
+        ),
+        InlineKeyboardButton(
+            text="👥 Support Group", url="https://t.me/AnkiSupport_Official"
+        ),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Anki Vector to your group ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
+            text="📜Source", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"
+        ),
+        InlineKeyboardButton(
+            text="❔ Help", url="http://t.me/TheAnkiVectorbot?start=help"
+        ),
+    ],
+    [
+        InlineKeyboardButton(
+            text="➕ Add Anki Vector to your group ➕",
+            url="t.me/TheAnkiVectorbot?startgroup=true",
         ),
     ],
 ]
@@ -216,7 +225,7 @@ def start(update: Update, context: CallbackContext):
                 IMPORTED["rules"].send_rules(update, args[0], from_pm=True)
 
         else:
-            first_name = update.effective_user.first_name
+            update.effective_user.first_name
             update.effective_message.reply_photo(
                 ANKIVECTOR_IMG,
                 caption=PM_START_TEXT,
@@ -381,11 +390,7 @@ def AnkiVector_about_callback(update, context):
                             text="Terms and Conditions", callback_data="aboutmanu_tac"
                         ),
                     ],
-                    [
-                        InlineKeyboardButton(
-                            text="Help", callback_data="help_back"
-                        )
-                    ],
+                    [InlineKeyboardButton(text="Help", callback_data="help_back")],
                     [InlineKeyboardButton(text="Back", callback_data="aboutmanu_back")],
                 ]
             ),
@@ -412,9 +417,7 @@ def AnkiVector_about_callback(update, context):
                         InlineKeyboardButton(
                             text="Admins", callback_data="aboutmanu_permis"
                         ),
-                        InlineKeyboardButton(
-                            text="Help", callback_data="help_back"
-                        ),
+                        InlineKeyboardButton(text="Help", callback_data="help_back"),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="aboutmanu_")],
                 ]
