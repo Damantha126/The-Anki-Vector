@@ -204,7 +204,7 @@ if is_module_loaded(FILENAME):
  *3.* forwarding the `/setlog` to the group
 """
 
-    __mod_name__ = "Logger"
+    __mod_name__ = "Logger🗞"
 
     LOG_HANDLER = CommandHandler("logchannel", logging)
     SET_LOG_HANDLER = CommandHandler("setlog", setlog)
