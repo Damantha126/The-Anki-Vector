@@ -141,7 +141,7 @@ def callback_button(update: Update, context: CallbackContext):
             query.answer("You are not allowed to use this.")
 
 
-DB_CLEANUP_HANDLER = CommandHandler("dbcleanup", dbcleanup)
+DB_CLEANUP_HANDLER = CommandHandler("dbcleanup🧹", dbcleanup)
 BUTTON_HANDLER = CallbackQueryHandler(callback_button, pattern="db_.*")
 
 dispatcher.add_handler(DB_CLEANUP_HANDLER)
