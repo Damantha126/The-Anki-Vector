@@ -101,7 +101,7 @@ buttons = [
     ],
 ]
 
-ANKIVECTOR_IMG= ""
+ANKIVECTOR_IMG= "https://telegra.ph/file/14e7d126eb01b0e49dc93.jpg"
 
 HELP_STRINGS = f"""
 *Rose Help Menu :* [🤖](https://telegra.ph/file/14e7d126eb01b0e49dc93.jpg)
