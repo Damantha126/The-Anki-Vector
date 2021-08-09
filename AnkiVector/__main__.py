@@ -63,7 +63,7 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hey there 👋 (https://telegra.ph/file/396eaa204871748331ac3.jpg)
+Hey there 👋 
 My name is Rose 
 I can manage your groups with more functions 😏
 If you want to know how to use me just press on Help🛠 button below 🙂
