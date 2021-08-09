@@ -125,7 +125,7 @@ def _check_member(client, message):
                     )
                 except ChatAdminRequired:
                     sent_message.edit(
-                        "❗ **Anki Vector is not admin here..**\n__Give me ban permissions and retry.. \n#Ending FSub...__"
+                        "❗ **Rose is not admin here..**\n__Give me ban permissions and retry.. \n#Ending FSub...__"
                     )
 
             except ChatAdminRequired:
@@ -196,7 +196,7 @@ def config(client, message):
 __help__ = """
 *ForceSubscribe:*
 
-❂ Daisy can mute members who are not subscribed your channel until they subscribe
+❂ Rose can mute members who are not subscribed your channel until they subscribe
 ❂ When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
 
 *Setup*
@@ -213,4 +213,4 @@ Note: /FSub is an alias of /ForceSubscribe
 
  
 """
-__mod_name__ = "Force Subscribe"
+__mod_name__ = "Force Subscribe 📢"
