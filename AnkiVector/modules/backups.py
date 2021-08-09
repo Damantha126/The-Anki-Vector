@@ -372,7 +372,7 @@ def get_chat(chat_id, chat_data):
         return {"status": False, "value": False}
 
 
-__mod_name__ = "Backups"
+__mod_name__ = "Backups ♿️"
 
 __help__ = """
 *Only for group owner:*
