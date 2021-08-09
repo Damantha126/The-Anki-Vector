@@ -73,7 +73,7 @@ If you want to know how to use me just press on Help🛠 button below 🙂
 buttons = [
     [
         InlineKeyboardButton(
-            text=" Help 🛠", callback_data="help"
+            text=" Help 🛠", callback_data="cbhelpmenu"
         ),
         InlineKeyboardButton(
             text="Support Me 🌝 ", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
