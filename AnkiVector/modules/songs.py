@@ -83,4 +83,4 @@ __help__ = """
  ✪ /lyrics <song>*:* returns the lyrics of that song.
 """
 
-__mod_name__ = "Music"
+__mod_name__ = "Music🎵"
