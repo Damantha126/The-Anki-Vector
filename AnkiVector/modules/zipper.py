@@ -47,7 +47,7 @@ async def _(event):
             )
             return
 
-    mone = await event.reply("`⏳️ Please wait...`")
+    mone = await event.reply("<b>Please wait...</b>")
     if not os.path.isdir(TEMP_DOWNLOAD_DIRECTORY):
         os.makedirs(TEMP_DOWNLOAD_DIRECTORY)
     if event.reply_to_msg_id:
@@ -129,7 +129,7 @@ async def _(event):
             )
             return
 
-    mone = await event.reply("Processing ...")
+    mone = await event.reply("<b>Processing ...</b>")
     if not os.path.isdir(TEMP_DOWNLOAD_DIRECTORY):
         os.makedirs(TEMP_DOWNLOAD_DIRECTORY)
     if event.reply_to_msg_id:
@@ -214,4 +214,4 @@ __help__ = """
  ✪ /unzip: reply to a telegram file to decompress it from the .zip format
 """
 
-__mod_name__ = "Zipper"
+__mod_name__ = "Zipper🗂"
