@@ -90,6 +90,7 @@ if ENV:
     IBM_WATSON_CRED_URL = os.environ.get("IBM_WATSON_CRED_URL", None)
     IBM_WATSON_CRED_PASSWORD = os.environ.get("IBM_WATSON_CRED_PASSWORD", None)
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
+	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
 
     try:
         WHITELIST_CHATS = set(
