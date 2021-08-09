@@ -1,14 +1,14 @@
 __help__ = """
-** Anki Vector - A Powerful Telegram Group Manager 🎶 **
+** Rose Bot 🌹 - A Powerful Telegram Group Manager Bot **
 
-Powerful Abilities
+All Credits & Special thanks 🌞 
 
-• Group Voice Chat Music Play ❤️
+🌐 First Owners [Damantha🇱🇰](https://t.me/Damantha_Jasinghe)[Daisy X](https://github.com/TeamDaisyX/DaisyX)[Yakari music](https://github.com/youtubeslgeekshow/call-music-plus-bot)
 
-• File To Link and URL Upload 📂
+🌐 I added Force Subscribe for music /song downloader update/ some customizes button and more....
 
-• Youtube Downloader 🎵
+🌐 Join with us for more education 📖
 
-Developer [Damantha🇱🇰](https://t.me/Damantha_Jasinghe)
+ [Updates Channel🔔 ](https://t.me/sl_bot_zone)
 """
-__mod_name__ = "About"
+__mod_name__ = "About 🇱🇰"
