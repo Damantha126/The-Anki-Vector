@@ -1,6 +1,6 @@
 # The-Anki-Vector Based on Python Telegram Bot ![GitHub repo size](https://img.shields.io/github/repo-size/Damantha126/The-Anki-Vector?label=Repo%20Size)
 <p align="leaft">
-  <img src="https://telegra.ph/file/3b6aa07aac530199d5358.png" width='600"'>
+  <img src="https://telegra.ph/file/bd618b573899ecd009cd8.jpg" width='600"'>
 </p>
 # 2 Branches available. this is main brach. swith advaced fr all fetures
 
@@ -33,12 +33,19 @@ The Advanced Branch (For PRO's)
 
 The Anki Vector bot(advanced)
 
-### Credits ❤
-<details><summary>All Credits Here</summary>
-<p>
+# Special Credits ❤
 
-**[Inuka Asith](https://github.com/inukaasith)** ▪ **[Prabasha](https://github.com/prabhasha-p/HexzyBot)** ▪ **[Im Janindu](https://github.com/imjanindu)** ▪ **[Devil](https://github.com/lucifeermorningstar)** ▪ **[Miss-Valentina](https://github.com/Miss-Valentina)** ▪ **[Mr-Dark-Prince](https://github.com/Mr-Dark-Prince/)** ▪ **[Anime Kaizoku](https://github.com/AnimeKaizoku)** ▪ **[thehamkercat](https://github.com/thehamkercat/)**
-</details>
 
-## Special Credits
-- [Damantha](https://github.com/Damantha126) - A Co-Developer of Project
+- **[Inuka Asith](https://github.com/inukaasith)** 
+- **[Prabasha](https://github.com/prabhasha-p/)** 
+- **[ImJanindu](https://github.com/imjanindu)** 
+- **[Devil](https://github.com/lucifeermorningstar)** 
+- **[Miss-Valentina](https://github.com/Miss-Valentina)** 
+- **[Mr-Dark-Prince](https://github.com/Mr-Dark-Prince/)** 
+- **[Anime Kaizoku](https://github.com/AnimeKaizoku)**
+- **[thehamkercat](https://github.com/thehamkercat/)**
+- **[TroJanzHEX](https://github.com/TroJanzHEX/)**
+- **[TeamDaisyx](https://github.com/teamdaisyx)**
+
+## Credits
+- [Damantha Jasinghe](https://github.com/Damantha126) - A Owner of Project
