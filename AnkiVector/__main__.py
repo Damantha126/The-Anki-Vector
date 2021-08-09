@@ -73,7 +73,7 @@ If you want to know how to use me just press on Help🛠 button below 🙂
 buttons = [
     [
         InlineKeyboardButton(
-            text=" Help 🛠", callback_data="help"
+            text=" Help 🛠", url="http://t.me/szrosebot?start=help"
         ),
         InlineKeyboardButton(
             text="Support Me 🌝 ", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
@@ -90,7 +90,7 @@ buttons = [
     [
         InlineKeyboardButton(
             text="➕ Add Rose to your group ➕",
-            url="t.me/TheAnkiVectorbot?startgroup=true",
+            url="t.me/szrosebot?startgroup=true",
         ),
     ],
     [
