@@ -101,7 +101,7 @@ buttons = [
     ],
 ]
 
-ANKIVECTOR_STICKER = "CAACAgEAAxkBAAK7qWEQ7_rXA-4JTQYaa4htsGs2r5l7AAIjCQAC43gEAAGfWaD2uhnQOSAE"
+ANKIVECTOR_IMG= ""
 
 HELP_STRINGS = f"""
 *Rose Help Menu :* [🤖](https://telegra.ph/file/14e7d126eb01b0e49dc93.jpg)
