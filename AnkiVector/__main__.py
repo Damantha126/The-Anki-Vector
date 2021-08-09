@@ -62,6 +62,9 @@ from AnkiVector.modules.helper_funcs.chat_status import is_user_admin
 from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
+
+ANKIVECTOR_IMG= "https://telegra.ph/file/14e7d126eb01b0e49dc93.jpg"
+
 PM_START_TEXT = """
 Hey there 👋 
 My name is Rose 
@@ -101,7 +104,6 @@ buttons = [
     ],
 ]
 
-ANKIVECTOR_IMG= "https://telegra.ph/file/14e7d126eb01b0e49dc93.jpg"
 
 HELP_STRINGS = f"""
 *Rose Help Menu :* [🤖](https://telegra.ph/file/14e7d126eb01b0e49dc93.jpg)
