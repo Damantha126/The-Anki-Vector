@@ -59,3 +59,4 @@ aiofiles
 requests
 wget
 youtube_search
+Pillow>=4.2.0
