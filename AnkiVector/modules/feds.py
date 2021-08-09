@@ -100,7 +100,7 @@ def new_fed(update: Update, context: CallbackContext):
         x = sql.new_fed(user.id, fed_name, fed_id)
         if not x:
             update.effective_message.reply_text(
-                "Can't federate! Please contact @OnePunchSupport if the problem persist."
+                "Can't federate! Please contact @slbotzone if the problem persist."
             )
             return
 
@@ -266,7 +266,7 @@ def join_fed(update: Update, context: CallbackContext):
         x = sql.chat_join_fed(args[0], chat.title, chat.id)
         if not x:
             message.reply_text(
-                "Failed to join federation! Please contact @OnePunchSupport should this problem persist!"
+                "Failed to join federation! Please contact @slbotzone should this problem persist!"
             )
             return
 
@@ -528,7 +528,7 @@ def fed_admin(update: Update, context: CallbackContext):
     info = sql.get_fed_info(fed_id)
 
     text = "<b>Federation Admin {}:</b>\n\n".format(info["fname"])
-    text += "👑 Owner:\n"
+    text += "🔥 Owner:\n"
     owner = bot.get_chat(info["owner"])
     try:
         owner_name = owner.first_name + " " + owner.last_name
@@ -538,9 +538,9 @@ def fed_admin(update: Update, context: CallbackContext):
 
     members = sql.all_fed_members(fed_id)
     if len(members) == 0:
-        text += "\n🔱 There are no admins in this federation"
+        text += "\n👮‍♀️ There are no admins in this federation"
     else:
-        text += "\n🔱 Admin:\n"
+        text += "\n👮‍♀️ Admin:\n"
         for x in members:
             user = bot.get_chat(x)
             text += " • {}\n".format(mention_html(user.id, user.first_name))
@@ -2339,7 +2339,7 @@ def get_chat(chat_id, chat_data):
 @run_async
 def fed_owner_help(update: Update, context: CallbackContext):
     update.effective_message.reply_text(
-        """*👑 Fed Owner Only:*
+        """*🤖Fed Owner Only:*
 ✪  /newfed <fed_name>*:* Creates a Federation, One allowed per user
 ✪  /renamefed <fed_id> <new_fed_name>*:* Renames the fed id to a new name
 ✪  /delfed <fed_id`*:* Delete a Federation, and any information related to it. Will not cancel blocked users
@@ -2358,7 +2358,7 @@ def fed_owner_help(update: Update, context: CallbackContext):
 @run_async
 def fed_admin_help(update: Update, context: CallbackContext):
     update.effective_message.reply_text(
-        """*🔱 Fed Admins:*
+        """* Fed Admins:*
 ✪  fban <user> <reason>*:* Fed bans a user
 ✪  /unfban <user> <reason>*:* Removes a user from a fed ban
 ✪  /fedinfo <fed_id>*:* Information about the specified Federation
@@ -2376,7 +2376,7 @@ def fed_admin_help(update: Update, context: CallbackContext):
 @run_async
 def fed_user_help(update: Update, context: CallbackContext):
     update.effective_message.reply_text(
-        """*🎩 Any user:*
+        """*Any user:*
 ✪  /fbanstat*:* Shows if you/or the user you are replying to or their username is fbanned somewhere or not
 ✪  /fednotif <on/off>*:* Federation settings not in PM when there are users who are fbaned/unfbanned
 ✪  /frules*:* See Federation regulations\n""",
@@ -2384,7 +2384,7 @@ def fed_user_help(update: Update, context: CallbackContext):
     )
 
 
-__mod_name__ = "Federations"
+__mod_name__ = "Federations📣"
 
 __help__ = """
 Everything is fun, until a spammer starts entering your group, and you have to block it. Then you need to start banning more, and more, and it hurts.
