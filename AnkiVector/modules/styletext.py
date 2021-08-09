@@ -483,7 +483,7 @@ def lined(update, context):
         message.reply_text(string)
 
 
-__mod_name__ = "StyleText"
+__mod_name__ = "StyleText🌀"
 
 WEEBIFY_HANDLER = DisableAbleCommandHandler("weebify", weebify)
 BUBBLE_HANDLER = DisableAbleCommandHandler("bubble", bubble)
