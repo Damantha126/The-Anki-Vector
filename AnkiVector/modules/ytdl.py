@@ -22,7 +22,7 @@ async def download_video(v_url):
     """For .ytdl command, download media from YouTube and many other sites."""
     url = v_url.pattern_match.group(2)
     type = v_url.pattern_match.group(1).lower()
-    lmao = await v_url.reply("`Preparing to download...`")
+    lmao = await v_url.reply("<b>Preparing to download...</b>")
     if type == "audio":
         opts = {
             "format": "bestaudio",
@@ -63,14 +63,14 @@ async def download_video(v_url):
         song = False
         video = True
     try:
-        await lmao.edit("`Fetching data, please wait..`")
+        await lmao.edit("<b>Fetching data, please wait..</b>")
         with YoutubeDL(opts) as ytdl:
             ytdl_data = ytdl.extract_info(url)
     except DownloadError as DE:
         await lmao.edit(f"`{str(DE)}`")
         return
     except ContentTooShortError:
-        await lmao.edit("`The download content was too short.`")
+        await lmao.edit("The download content was too short.")
         return
     except GeoRestrictedError:
         await lmao.edit(
