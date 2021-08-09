@@ -14,4 +14,4 @@ __help__ = """
 
 """
 
-__mod_name__ = "Tools"
+__mod_name__ = "Tools🛠"
