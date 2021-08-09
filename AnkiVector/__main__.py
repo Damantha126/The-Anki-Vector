@@ -63,47 +63,52 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm 𝓐𝓷𝓴𝓲 𝓥𝓮𝓬𝓽𝓸𝓻
-I'm a Powerful group manager bot With Cool Modules. Made by [𝓓𝓪𝓶𝓪𝓷𝓽𝓱𝓪 𝓙𝓪𝓼𝓲𝓷𝓰𝓱𝓮• 🇱🇰](t.me/Damantha_Jasinghe)
-Hit /help to find my list of available commands
- 
+Hey there 👋 (https://telegra.ph/file/396eaa204871748331ac3.jpg)
+My name is Rose 
+I can manage your groups with more functions 😏
+If you want to know how to use me just press on Help🛠 button below 🙂
+@sl_bot_zone Projects 🇱🇰
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="📢Updates Channel", url="https://t.me/ankivectorUpdates"
+            text=" Help 🛠", callback_data="help"
         ),
         InlineKeyboardButton(
-            text="👥 Support Group", url="https://t.me/AnkiSupport_Official"
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-            text="📜Source", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"
-        ),
-        InlineKeyboardButton(
-            text="❔ Help", url="http://t.me/TheAnkiVectorbot?start=help"
+            text="Support Me 🌝 ", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Anki Vector to your group ➕",
+            text="Updates channel 🗣 ", url="https://t.me/sl_bot_zone"
+        ),
+        InlineKeyboardButton(
+            text="Support Group 👥 ", url="https://t.me/slbotzone"
+        ),
+    ],
+    [
+        InlineKeyboardButton(
+            text="➕ Add Rose to your group ➕",
             url="t.me/TheAnkiVectorbot?startgroup=true",
+        ),
+    ],
+    [
+        InlineKeyboardButton(
+            text="🎙 Yakari vc play to your group ➕",
+            url="t.me/yakari_music_play_newversion_bot?startgroup=true",
         ),
     ],
 ]
 
-ANKIVECTOR_IMG = "https://telegra.ph/file/e10a45d0433a1ab6fed7b.jpg"
+ANKIVECTOR_IMG = "https://telegra.ph/file/396eaa204871748331ac3.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/e10a45d0433a1ab6fed7b.jpg)
-✪ /start: Starts me! You've probably already used this.
-✪ /help: Click this, I'll let you know about myself!
-✪ /donate: You can support my creater using this command.
-✪ /settings: 
-   ◔ in PM: will send you your settings for all supported modules.
-   ◔ in a Group: will redirect you to pm, with all that chat's settings.
+*Rose Help Menu :* [🤖](https://telegra.ph/file/396eaa204871748331ac3.jpg)
+
+I'm Rose bot 🇱🇰
+
+The following functions will helpful to you to manage your group🙂
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
@@ -112,7 +117,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Damantha Jasinghe](t.me/Damantha_Jasinghe)"""
+Support them  [Youtube](https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -311,7 +316,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*⚊❮❮❮❮ ｢  Help  for  {}  module 」❯❯❯❯⚊*\n".format(
+                "*｢  Help  for  {}  module 」😊*\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -320,7 +325,7 @@ def help_button(update, context):
                 text=text,
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="🔙 Back", callback_data="help_back")]]
                 ),
             )
 
@@ -373,25 +378,25 @@ def AnkiVector_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Anki Vector Updates.* "
-            f"\n\n Join [AnkiVectorUpdates](https://t.me/ankivectorUpdates) To Keep Yourself Updated About {dispatcher.bot.first_name}"
-            f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
-            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
-            f"\n\nYou Can Know More About Me By Clicking The Below Buttons",
+            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by @sl_bot_zone* "
+            f"\n\n🆘Join [Bots Updates ](https://t.me/sl_bot_zone) To Keep Yourself Updated About {dispatcher.bot.first_name}"
+            f"\n\n🆘I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
+            f"\n\n🆘I Can Manage Your Groups Smoothly, With Some Special Features"
+            f"\n\n🆘You Can Know More About Me By Clicking The Below Buttons",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="How To Use Me", callback_data="aboutmanu_howto"
+                            text="How To Use Me ?", callback_data="aboutmanu_howto"
                         ),
                         InlineKeyboardButton(
-                            text="Terms and Conditions", callback_data="aboutmanu_tac"
+                            text="support me 🤗 ", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
                         ),
                     ],
-                    [InlineKeyboardButton(text="Help", callback_data="help_back")],
-                    [InlineKeyboardButton(text="Back", callback_data="aboutmanu_back")],
+                    [InlineKeyboardButton(text="Help🛠", callback_data="help_back")],
+                    [InlineKeyboardButton(text="🔙Back", callback_data="aboutmanu_back")],
                 ]
             ),
         )
@@ -405,9 +410,9 @@ def AnkiVector_about_callback(update, context):
 
     elif query.data == "aboutmanu_howto":
         query.message.edit_text(
-            text=f"* ｢ BASIC HELP 」*"
+            text=f"*⚙️ ｢ BASIC HELP 」⚙️*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Anki Vectr Support](https://t.me/AnkiSupport_Official).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Bot support 👥](https://t.me/slbotzone).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -415,20 +420,20 @@ def AnkiVector_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Admins", callback_data="aboutmanu_permis"
+                            text="Admins 👮‍♀️", callback_data="aboutmanu_permis"
                         ),
-                        InlineKeyboardButton(text="Help", callback_data="help_back"),
+                        InlineKeyboardButton(text="Help🛠", callback_data="help_back"),
                     ],
-                    [InlineKeyboardButton(text="Back", callback_data="aboutmanu_")],
+                    [InlineKeyboardButton(text="🔙Back", callback_data="aboutmanu_")],
                 ]
             ),
         )
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [Anki Vector Brother](https://t.me/TheVectorBrotherbot)."
-            f"\n\n{dispatcher.bot.first_name}'s source code was written by Damantha Jasinghe"
-            f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
+            f"\n\n✳️Based on [Anki Vector](https://t.me/TheAnkiVectorbot)."
+            f"\n\n✳️{dispatcher.bot.first_name}'s source code was written by Damantha Jasinghe ⭕️"
+            f"\n\n✳️If Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -439,12 +444,12 @@ def AnkiVector_about_callback(update, context):
     elif query.data == "aboutmanu_permis":
         query.message.edit_text(
             text=f"<b> ｢ Admin Permissions 」</b>"
-            f"\nTo avoid slowing down, {dispatcher.bot.first_name} caches admin rights for each user. This cache lasts about 10 minutes; this may change in the future. This means that if you promote a user manually (without using the /promote command), {dispatcher.bot.first_name} will only find out ~10 minutes later."
-            f"\n\nIF you want to update them immediately, you can use the /admincache command,thta'll force {dispatcher.bot.first_name} to check who the admins are again and their permissions"
-            f"\n\nIf you are getting a message saying:"
-            f"\n<Code>You must be this chat administrator to perform this action!</code>"
-            f"\nThis has nothing to do with {dispatcher.bot.first_name}'s rights; this is all about YOUR permissions as an admin. {dispatcher.bot.first_name} respects admin permissions; if you do not have the Ban Users permission as a telegram admin, you won't be able to ban users with {dispatcher.bot.first_name}. Similarly, to change {dispatcher.bot.first_name} settings, you need to have the Change group info permission."
-            f"\n\nThe message very clearly says that you need these rights - <i>not {dispatcher.bot.first_name}.</i>",
+            f"\n✳️To avoid slowing down, {dispatcher.bot.first_name} caches admin rights for each user. This cache lasts about 10 minutes; this may change in the future. This means that if you promote a user manually (without using the /promote command), {dispatcher.bot.first_name} will only find out ~10 minutes later."
+            f"\n\n✳️IF you want to update them immediately, you can use the /admincache command,thta'll force {dispatcher.bot.first_name} to check who the admins are again and their permissions"
+            f"\n\n✳️If you are getting a message saying:"
+            f"\n✳️<Code>You must be this chat administrator to perform this action!</code>"
+            f"\n✳️This has nothing to do with {dispatcher.bot.first_name}'s rights; this is all about YOUR permissions as an admin. {dispatcher.bot.first_name} respects admin permissions; if you do not have the Ban Users permission as a telegram admin, you won't be able to ban users with {dispatcher.bot.first_name}. Similarly, to change {dispatcher.bot.first_name} settings, you need to have the Change group info permission."
+            f"\n\n✳️The message very clearly says that you need these rights - <i>not {dispatcher.bot.first_name}.</i>",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_howto")]]
@@ -453,27 +458,27 @@ def AnkiVector_about_callback(update, context):
     elif query.data == "aboutmanu_spamprot":
         query.message.edit_text(
             text="* ｢ Anti-Spam Settings 」*"
-            "\n- /antispam <on/off/yes/no>: Change antispam security settings in the group, or return your current settings(when no arguments)."
-            "\n_This helps protect you and your groups by removing spam flooders as quickly as possible._"
-            "\n\n- /setflood <int/'no'/'off'>: enables or disables flood control"
-            "\n- /setfloodmode <ban/kick/mute/tban/tmute> <value>: Action to perform when user have exceeded flood limit. ban/kick/mute/tmute/tban"
-            "\n_Antiflood allows you to take action on users that send more than x messages in a row. Exceeding the set flood will result in restricting that user._"
-            "\n\n- /addblacklist <triggers>: Add a trigger to the blacklist. Each line is considered one trigger, so using different lines will allow you to add multiple triggers."
-            "\n- /blacklistmode <off/del/warn/ban/kick/mute/tban/tmute>: Action to perform when someone sends blacklisted words."
-            "\n_Blacklists are used to stop certain triggers from being said in a group. Any time the trigger is mentioned, the message will immediately be deleted. A good combo is sometimes to pair this up with warn filters!_"
-            "\n\n- /reports <on/off>: Change report setting, or view current status."
-            "\n • If done in pm, toggles your status."
-            "\n • If in chat, toggles that chat's status."
-            "\n_If someone in your group thinks someone needs reporting, they now have an easy way to call all admins._"
-            "\n\n- /lock <type>: Lock items of a certain type (not available in private)"
-            "\n- /locktypes: Lists all possible locktypes"
-            "\n_The locks module allows you to lock away some common items in the telegram world; the bot will automatically delete them!_"
-            '\n\n- /addwarn <keyword> <reply message>: Sets a warning filter on a certain keyword. If you want your keyword to be a sentence, encompass it with quotes, as such: /addwarn "very angry" This is an angry user. '
-            "\n- /warn <userhandle>: Warns a user. After 3 warns, the user will be banned from the group. Can also be used as a reply."
-            "\n- /strongwarn <on/yes/off/no>: If set to on, exceeding the warn limit will result in a ban. Else, will just kick."
-            "\n_If you're looking for a way to automatically warn users when they say certain things, use the /addwarn command._"
-            "\n\n- /welcomemute <off/soft/strong>: All users that join, get muted"
-            "\n_ A button gets added to the welcome message for them to unmute themselves. This proves they aren't a bot! soft - restricts users ability to post media for 24 hours. strong - mutes on join until they prove they're not bots._",
+            "\n-🔴 /antispam <on/off/yes/no>: Change antispam security settings in the group, or return your current settings(when no arguments)."
+            "\n_🔴This helps protect you and your groups by removing spam flooders as quickly as possible._"
+            "\n\n🔴- /setflood <int/'no'/'off'>: enables or disables flood control"
+            "\n-🔴 /setfloodmode <ban/kick/mute/tban/tmute> <value>: Action to perform when user have exceeded flood limit. ban/kick/mute/tmute/tban"
+            "\n_🔴Antiflood allows you to take action on users that send more than x messages in a row. Exceeding the set flood will result in restricting that user._"
+            "\n\n-🔴 /addblacklist <triggers>: Add a trigger to the blacklist. Each line is considered one trigger, so using different lines will allow you to add multiple triggers."
+            "\n-🔴/blacklistmode <off/del/warn/ban/kick/mute/tban/tmute>: Action to perform when someone sends blacklisted words."
+            "\n_🔴Blacklists are used to stop certain triggers from being said in a group. Any time the trigger is mentioned, the message will immediately be deleted. A good combo is sometimes to pair this up with warn filters!_"
+            "\n\n-🔴 /reports <on/off>: Change report setting, or view current status."
+            "\n 🔴 If done in pm, toggles your status."
+            "\n 🔴If in chat, toggles that chat's status."
+            "\n_🔴If someone in your group thinks someone needs reporting, they now have an easy way to call all admins._"
+            "\n\n-🔴 /lock <type>: Lock items of a certain type (not available in private)"
+            "\n-🔴 /locktypes: Lists all possible locktypes"
+            "\n_🔴The locks module allows you to lock away some common items in the telegram world; the bot will automatically delete them!_"
+            '\n\n-🔴 /addwarn <keyword> <reply message>: Sets a warning filter on a certain keyword. If you want your keyword to be a sentence, encompass it with quotes, as such: /addwarn "very angry" This is an angry user. '
+            "\n-🔴 /warn <userhandle>: Warns a user. After 3 warns, the user will be banned from the group. Can also be used as a reply."
+            "\n-🔴 /strongwarn <on/yes/off/no>: If set to on, exceeding the warn limit will result in a ban. Else, will just kick."
+            "\n_🔴If you're looking for a way to automatically warn users when they say certain things, use the /addwarn command._"
+            "\n\n-🔴 /welcomemute <off/soft/strong>: All users that join, get muted"
+            "\n_ 🔴A button gets added to the welcome message for them to unmute themselves. This proves they aren't a bot! soft - restricts users ability to post media for 24 hours. strong - mutes on join until they prove they're not bots._",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_howto")]]
@@ -483,13 +488,13 @@ def AnkiVector_about_callback(update, context):
         query.message.edit_text(
             text=f"<b> ｢ Terms and Conditions 」</b>\n"
             f"\n<i>To Use This Bot, You Need To Read Terms and Conditions Carefully.</i>\n"
-            f"\n✪ We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
-            f"\n✪ Always try to keep credits, so \n  This hardwork is done by Anki Vector Updates team spending many sleepless nights.. So, Respect it."
-            f"\n✪ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
-            f"\n✪ If you need to ask anything about \n  this bot, Go @{SUPPORT_CHAT}."
-            f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
-            f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
-            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of AnkiVectorBot we are not resposible for anything."
+            f"\n⚠️ We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
+            f"\n⚠️ Always try to keep credits, so \n  This hardwork is done by Anki Vector Updates team spending many sleepless nights.. So, Respect it."
+            f"\n⚠️ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
+            f"\n⚠️ If you need to ask anything about \n  this bot, Go @{SUPPORT_CHAT}."
+            f"\n⚠️ If you asking nonsense in Support \n  Chat, you will get warned/banned."
+            f"\n⚠️ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
+            f"\n⚠️ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of AnkiVectorBot we are not resposible for anything."
             f"\n\nFor any kind of help, related to this bot, Join @{SUPPORT_CHAT}."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
@@ -497,9 +502,9 @@ def AnkiVector_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Credits", callback_data="aboutmanu_credit"
+                            text="Join with us 👤", url="https://t.me/slbotzone"
                         ),
-                        InlineKeyboardButton(text="Back", callback_data="aboutmanu_"),
+                        InlineKeyboardButton(text="🔙Back", callback_data="aboutmanu_"),
                     ]
                 ]
             ),
@@ -522,7 +527,7 @@ def get_help(update, context):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Help",
+                                text="Help🛠",
                                 url="t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -538,13 +543,13 @@ def get_help(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Help",
+                            text="Help🛠",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Support Chat",
+                            text="Bot Support 👥 ",
                             url="https://t.me/{}".format(SUPPORT_CHAT),
                         )
                     ],
@@ -718,7 +723,7 @@ def get_settings(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Settings",
+                                text="Settings 💫",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
@@ -811,7 +816,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I am now online!")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 🤭")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
