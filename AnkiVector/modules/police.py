@@ -30,7 +30,7 @@ def police(bot: Bot, update: Update):
     for x in range(EDIT_TIMES):
         msg.edit_text(police_siren[x%2])
         time.sleep(EDIT_SLEEP)
-    msg.edit_text(<b>Police is here!</b> @sl_bot_zone)
+    msg.edit_text('<b>Police is here!</b> @sl_bot_zone')
 
 
 __help__ = """
