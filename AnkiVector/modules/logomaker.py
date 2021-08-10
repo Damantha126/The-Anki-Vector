@@ -191,4 +191,4 @@ __help__ = """
  ❍ /biglogo text :  Create your logo Bigger Than `logo`
  ❍ /wlogo text :  Create your logo with your name
  """
-__mod_name__ = "Logo⚡️"
+__mod_name__ = "Logo✴️"
