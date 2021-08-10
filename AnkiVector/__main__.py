@@ -63,7 +63,7 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 
-ANKIVECTOR_IMG= "https://telegra.ph/file/14e7d126eb01b0e49dc93.jpg"
+ANKIVECTOR_IMG = "https://telegra.ph/file/14e7d126eb01b0e49dc93.jpg"
 
 PM_START_TEXT = """
 Hey there 👋 
