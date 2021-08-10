@@ -1,5 +1,7 @@
 __help__ = """
-
+** GPS **
+ - /gps <Place> : Show Location on a map
+ 
  ** Blue Cleaner **
  - /cleanblue on : Turn bluetext cleaner on
  - /cleanblue off : Turn bluetext cleaner off
@@ -19,6 +21,9 @@ __help__ = """
  - /weebify : Weebify Text
  - /square : square Text
  - /blue : Blues text
-
+** Telegraph **
+- /telegraph <reply to jpg, jpeg, png, gif or mp4>: upload to telegraph.
+** More **
+ - /phone <tp no> : Track Phone no
 """
 __mod_name__ = "More Tools ⛓"
