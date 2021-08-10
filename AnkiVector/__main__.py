@@ -62,9 +62,6 @@ from AnkiVector.modules.helper_funcs.chat_status import is_user_admin
 from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
-
-ANKIVECTOR_IMG = "https://telegra.ph/file/14e7d126eb01b0e49dc93.jpg"
-
 PM_START_TEXT = """
 Hey there 👋 
 My name is Rose 
@@ -76,7 +73,7 @@ If you want to know how to use me just press on Help🛠 button below 🙂
 buttons = [
     [
         InlineKeyboardButton(
-            text=" Help 🛠", callback_data="help_back"
+            text=" Help 🛠", url="http://t.me/szrosebot?start=help"
         ),
         InlineKeyboardButton(
             text="Support Me 🌝 ", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
@@ -104,12 +101,11 @@ buttons = [
     ],
 ]
 
+ANKIVECTOR_IMG= "https://telegra.ph/file/14e7d126eb01b0e49dc93.jpg"
 
 HELP_STRINGS = f"""
 *Rose Help Menu :* [🤖](https://telegra.ph/file/14e7d126eb01b0e49dc93.jpg)
-
 I'm Rose bot 🇱🇰
-
 The following functions will helpful to you to manage your group🙂
 """.format(
     dispatcher.bot.first_name,
@@ -242,7 +238,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>🌞".format(
+            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
