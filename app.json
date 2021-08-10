@@ -171,11 +171,6 @@
          "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
          "required": false,
          "value": ""
-      },
-      "STRING_SESSION ": {
-         "description": "Telethon string session from https://repl.it/@Damantha126/GenerateStringSession",
-         "required": true,
-         "value": ""
       }
    },
    "keywords": [
