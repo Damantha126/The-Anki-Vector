@@ -73,7 +73,7 @@ If you want to know how to use me just press on Help🛠 button below 🙂
 buttons = [
     [
         InlineKeyboardButton(
-            text=" Help 🛠", url="http://t.me/szrosebot?start=help"
+            text=" Help 🛠", callback_data="help_back""
         ),
         InlineKeyboardButton(
             text="Support Me 🌝 ", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
@@ -238,7 +238,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            "I'm awake already!😊 \n<b>Haven't slept since:</b> <code>{}</code>🤨".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -314,7 +314,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*｢  Help  for  {}  module 」😊*\n".format(
+                "*｢｢  Help  for  {}  module 」」😊*\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -536,7 +536,7 @@ def get_help(update, context):
             )
             return
         update.effective_message.reply_text(
-            "Contact me in PM to get the list of possible commands.",
+            "Contact me in PM for help! or Join our support chat 🥰",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
