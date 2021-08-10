@@ -85,7 +85,6 @@ if ENV:
     YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
     SPAMWATCH_SUPPORT_CHAT = os.environ.get("SPAMWATCH_SUPPORT_CHAT", None)
     SPAMWATCH_API = os.environ.get("SPAMWATCH_API", None)
-    STRING_SESSION = os.environ.get("STRING_SESSION", None)
     REPOSITORY = os.environ.get("REPOSITORY", "")
     REDIS_URL = os.environ.get("REDIS_URL")
     IBM_WATSON_CRED_URL = os.environ.get("IBM_WATSON_CRED_URL", None)
@@ -161,7 +160,6 @@ else:
     TIME_API_KEY = Config.TIME_API_KEY
     AI_API_KEY = Config.AI_API_KEY
     WALL_API = Config.WALL_API
-    STRING_SESSION = Config.STRING_SESSION
     SUPPORT_CHAT = Config.SUPPORT_CHAT
     SPAMWATCH_SUPPORT_CHAT = Config.SPAMWATCH_SUPPORT_CHAT
     SPAMWATCH_API = Config.SPAMWATCH_API
@@ -181,17 +179,6 @@ if not SPAMWATCH_API:
     LOGGER.warning("SpamWatch API key missing! recheck your config.")
 else:
     sw = spamwatch.Client(SPAMWATCH_API)
-
-if STRING_SESSION:
-    ubot = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)
-else:
-    sys.exit(1)
-
-try:
-    ubot.start()
-except BaseException:
-    print("Network Error!")
-    sys.exit(1)
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("ankivector", API_ID, API_HASH)
