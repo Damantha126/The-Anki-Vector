@@ -1,19 +1,3 @@
-#    Copyright (C) 2020-2021 by @Damantha_Jasinghe
-#    This programme is a part of Liza TG bot project
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Affero General Public License as published by
-#    the Free Software Foundation, either version 3 of the License, or
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU Affero General Public License for more details.
-#
-#    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-
 import logging
 import time
 
@@ -28,7 +12,7 @@ from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboard
 
 from AnkiVector import DRAGONS as SUDO_USERS
 from AnkiVector import pbot
-from AnkiVector.modules.sql import forceSubscribe_sql as sql
+from AnkiVector .modules.sql import forceSubscribe_sql as sql
 
 logging.basicConfig(level=logging.INFO)
 
@@ -100,7 +84,7 @@ def _check_member(client, message):
             except UserNotParticipant:
                 try:
                     sent_message = message.reply_text(
-                        "Welcome {} 🙏 \n **You havent joined our @{} Channel yet** 😭 \n \nPlease Join [Our Channel](https://t.me/{}) and hit the **UNMUTE ME** Button.".format(
+                        "Welcome {} 🙏 \n **You havent joined our @{} Channel yet** 😭 \n \nPlease Join [Our Channel](https://t.me/{}) and hit the **UNMUTE ME** Button. \n \n ".format(
                             message.from_user.mention, channel, channel
                         ),
                         disable_web_page_preview=True,
@@ -125,7 +109,7 @@ def _check_member(client, message):
                     )
                 except ChatAdminRequired:
                     sent_message.edit(
-                        "❗ **Rose is not admin here..**\n__Give me ban permissions and retry.. \n#Ending FSub...__"
+                        "❗ **Daisy is not admin here..**\n__Give me ban permissions and retry.. \n#Ending FSub...__"
                     )
 
             except ChatAdminRequired:
@@ -195,22 +179,18 @@ def config(client, message):
 
 __help__ = """
 *ForceSubscribe:*
-
-❂ Rose can mute members who are not subscribed your channel until they subscribe
-❂ When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
-
+✪ Daisy can mute members who are not subscribed your channel until they subscribe
+✪ When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
 *Setup*
 1) First of all add me in the group as admin with ban users permission and in the channel as admin.
 Note: Only creator of the group can setup me and i will not allow force subscribe again if not done so.
  
 *Commmands*
-❂ /ForceSubscribe - To get the current settings.
-❂ /ForceSubscribe no/off/disable - To turn of ForceSubscribe.
-❂ /ForceSubscribe {channel username} - To turn on and setup the channel.
-❂ /ForceSubscribe clear - To unmute all members who muted by me.
-
+✪ /ForceSubscribe - To get the current settings.
+✪ /ForceSubscribe no/off/disable - To turn of ForceSubscribe.
+✪ /ForceSubscribe {channel username} - To turn on and setup the channel.
+✪ /ForceSubscribe clear - To unmute all members who muted by me.
 Note: /FSub is an alias of /ForceSubscribe
-
  
 """
-__mod_name__ = "Force Subscribe 📢"
+__mod_name__ = "📢 Force Subscribe 💭"
