@@ -238,23 +238,23 @@ def info(update: Update, context: CallbackContext):
     else:
         return
 
-    rep = message.reply_text("<code>Appraising...</code>", parse_mode=ParseMode.HTML)
+    rep = message.reply_text("<code>Wait man 🔄</code>", parse_mode=ParseMode.HTML)
 
     text = (
-        f"╒═══「<b> Appraisal results:</b> 」\n"
-        f"ID: <code>{user.id}</code>\n"
-        f"First Name: {html.escape(user.first_name)}"
+        f"╒═══「<b> Appraisal results:</b>]🤖\n"
+        f"🔰ID: <code>{user.id}</code>\n"
+        f"🔰First Name: {html.escape(user.first_name)}"
     )
 
     if user.last_name:
-        text += f"\nLast Name: {html.escape(user.last_name)}"
+        text += f"\n🔰Last Name: {html.escape(user.last_name)}"
 
     if user.username:
-        text += f"\nUsername: @{html.escape(user.username)}"
+        text += f"\n🔰Username: @{html.escape(user.username)}"
 
-    text += f"\nPermalink: {mention_html(user.id, 'link')}"
+    text += f"\n🔰Permalink: {mention_html(user.id, 'link')}"
 
-    if chat.type != "private" and user_id != bot.id:
+    if chat.type != "🔰private" and user_id != bot.id:
         _stext = "\nPresence: <code>{}</code>"
 
         afk_st = is_afk(user.id)
@@ -271,7 +271,7 @@ def info(update: Update, context: CallbackContext):
                     text += _stext.format("Admin")
     if user_id not in [bot.id, 777000, 1087968824]:
         userhp = hpmanager(user)
-        text += f"\n\n<b>Health:</b> <code>{userhp['earnedhp']}/{userhp['totalhp']}</code>\n[<i>{make_bar(int(userhp['percentage']))} </i>{userhp['percentage']}%]"
+        text += f"\n\n<b>❤️Health:</b> <code>{userhp['earnedhp']}/{userhp['totalhp']}</code>\n[<i>{make_bar(int(userhp['percentage']))} </i>{userhp['percentage']}%]"
 
     try:
         spamwtc = sw.get_ban(int(user.id))
@@ -308,7 +308,7 @@ def info(update: Update, context: CallbackContext):
 
     if disaster_level_present:
 
-        text += ' [<a href="https://t.me/SuzuyaUpdates/55">?</a>]'.format(bot.username)
+        text += ' [<a href="https://t.me/SL_bot_zone/313">?</a>]'.format(bot.username)
 
     try:
         user_member = chat.get_member(user.id)
@@ -406,11 +406,11 @@ def set_about_me(update: Update, context: CallbackContext):
         if len(info[1]) < MAX_MESSAGE_LENGTH // 4:
             sql.set_user_me_info(user_id, info[1])
             if user_id in [777000, 1087968824]:
-                message.reply_text("Authorized...Information updated!")
+                message.reply_text("Authorized...Information updated!🏆")
             elif user_id == bot.id:
                 message.reply_text("I have updated my info with the one you provided!")
             else:
-                message.reply_text("Information updated!")
+                message.reply_text("Information updated!🏆")
         else:
             message.reply_text(
                 "The info needs to be under {} characters! You have {}.".format(
@@ -527,25 +527,25 @@ def __user_info__(user_id):
 
 __help__ = """
 *ID:*
- • `/id`*:* get the current group id. If used by replying to a message, gets that user's id.
- • `/gifid`*:* reply to a gif to me to tell you its file ID.
+❍ /id*:* get the current group id. If used by replying to a message, gets that user's id.
+❍ /gifid*:* reply to a gif to me to tell you its file ID.
 
 *Self addded information:* 
- • `/setme <text>`*:* will set your info
- • `/me`*:* will get your or another user's info.
+❍ /setme <text>*:* will set your info
+❍ /me*:* will get your or another user's info.
 Examples:
- `/setme I am a wolf.`
- `/me @username(defaults to yours if no user specified)`
+❍/setme I am a wolf.
+❍ /me @username(defaults to yours if no user specified)
 
 *Information others add on you:* 
- • `/bio`*:* will get your or another user's bio. This cannot be set by yourself.
-• `/setbio <text>`*:* while replying, will save another user's bio 
+❍ /bio*:* will get your or another user's bio. This cannot be set by yourself.
+❍ /setbio <text>*:* while replying, will save another user's bio 
 Examples:
- `/bio @username(defaults to yours if not specified).`
- `/setbio This user is a wolf` (reply to the user)
+❍ /bio @username(defaults to yours if not specified).
+❍ /setbio This user is a wolf (reply to the user)
 
 *Overall Information about you:*
- • `/info`*:* get information about a user. 
+❍ /info*:* get information about a user. 
  
 *What is that health thingy?*
  Come and see [HP System explained](https://t.me/OnePunchUpdates/192)
