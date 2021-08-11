@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 from telethon import events
 
-from AnkiVector.services.telethon import tbot
+from AnkiVector import books
 
 
 @tbot.on(events.NewMessage(pattern="^/book (.*)"))
