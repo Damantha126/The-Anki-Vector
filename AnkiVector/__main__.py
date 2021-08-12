@@ -73,7 +73,7 @@ If you want to know how to use me just press on Help🛠 button below or hit /he
 buttons = [
     [
         InlineKeyboardButton(
-            text=" Help 🛠",  callback_data="help_back"
+            text=" Help 🛠",  url="http://t.me/szrosebot?start=help"
         ),
         InlineKeyboardButton(
             text="Support Me 🥺 ", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
