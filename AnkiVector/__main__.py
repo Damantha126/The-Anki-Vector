@@ -73,33 +73,28 @@ If you want to know how to use me just press on Help🛠 button below or hit /he
 buttons = [
     [
         InlineKeyboardButton(
-            text=" Help 🛠",  url="http://t.me/szrosebot?start=help"
-        ),
+            text="➕ Add Rose to your Group ➕", url="http://t.me/szrosebot?startgroup=true"),
+    ],
+    [
+        InlineKeyboardButton(text="🗣 Updates channel", url="https://t.me/sl_bot_zone"),
         InlineKeyboardButton(
-            text="Support Me 🥺 ", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
+            text="💬Support Group", url="https://t.me/slbotzone"
         ),
     ],
     [
+        InlineKeyboardButton(text="Help 🛠", url="http://t.me/szrosebot?start=help"),
         InlineKeyboardButton(
-            text="🗣 Updates channel ", url="https://t.me/sl_bot_zone"
-        ),
-        InlineKeyboardButton(
-            text="💬Support Group ", url="https://t.me/slbotzone"
+            text="Support Me 🥺", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
         ),
     ],
     [
-        InlineKeyboardButton(
-            text="➕ Add Rose to your group ➕",
-            url="t.me/szrosebot?startgroup=true",
-        ),
+        InlineKeyboardButton(text="🎙Add vc play to your group ➕", url="t.me/yakari_music_play_newversion_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(
-            text="🎙Add vc play to your group ➕",
-            url="t.me/yakari_music_play_newversion_bot?startgroup=true",
-        ),
+        InlineKeyboardButton(text="Inline media search 🔎", switch_inline_query=''"),
     ],
 ]
+
 
 ANKIVECTOR_IMG= "https://telegra.ph/file/14e7d126eb01b0e49dc93.jpg"
 
