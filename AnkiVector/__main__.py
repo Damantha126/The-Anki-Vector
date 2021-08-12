@@ -90,11 +90,7 @@ buttons = [
     [
         InlineKeyboardButton(text="🎙Add vc play to your group ➕", url="t.me/yakari_music_play_newversion_bot?startgroup=true"),
     ],
-    [
-        InlineKeyboardButton(text="Inline media search 🔎", switch_inline_query=''"),
-    ],
 ]
-
 
 ANKIVECTOR_IMG= "https://telegra.ph/file/14e7d126eb01b0e49dc93.jpg"
 
