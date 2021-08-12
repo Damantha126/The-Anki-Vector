@@ -73,7 +73,7 @@ If you want to know how to use me just press on Help🛠 button below 🙂
 buttons = [
     [
         InlineKeyboardButton(
-            text=" Help 🛠", url="http://t.me/szrosebot?start=help"
+            text=" Help 🛠",  callback_data="help_back"
         ),
         InlineKeyboardButton(
             text="Support Me 🌝 ", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
@@ -95,7 +95,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🎙 Yakari vc play to your group ➕",
+            text="🎙Add vc play to your group ➕",
             url="t.me/yakari_music_play_newversion_bot?startgroup=true",
         ),
     ],
