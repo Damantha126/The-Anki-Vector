@@ -66,7 +66,7 @@ PM_START_TEXT = """
 Hey there 👋 
 My name is Rose 
 I can manage your groups with more functions 😏
-If you want to know how to use me just press on Help🛠 button below 🙂
+If you want to know how to use me just press on Help🛠 button below or hit /help 🙂
 @sl_bot_zone Projects 🇱🇰
 """
 
@@ -76,15 +76,15 @@ buttons = [
             text=" Help 🛠",  callback_data="help_back"
         ),
         InlineKeyboardButton(
-            text="Support Me 🌝 ", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
+            text="Support Me 🥺 ", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="Updates channel 🗣 ", url="https://t.me/sl_bot_zone"
+            text="🗣 Updates channel ", url="https://t.me/sl_bot_zone"
         ),
         InlineKeyboardButton(
-            text="Support Group 👥 ", url="https://t.me/slbotzone"
+            text="💬Support Group ", url="https://t.me/slbotzone"
         ),
     ],
     [
@@ -178,7 +178,11 @@ def send_help(chat_id, text, keyboard=None):
     if not keyboard:
         keyboard = InlineKeyboardMarkup(paginate_modules(0, HELPABLE, "help"))
     dispatcher.bot.send_message(
-        chat_id=chat_id, text=text, parse_mode=ParseMode.MARKDOWN, reply_markup=keyboard
+        chat_id=chat_id,
+        text=text,
+        parse_mode=ParseMode.MARKDOWN,
+        disable_web_page_preview=True,
+        reply_markup=keyboard,
     )
 
 
