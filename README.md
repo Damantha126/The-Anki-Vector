@@ -54,3 +54,4 @@ The Anki Vector bot(advanced)
 ## Credits
 - [Damantha Jasinghe](https://github.com/Damantha126) - A Owner of Project
 - [Sadew Jsk](https://Github.com/sadew451)
+- [DEXTER # FX](https://github.com/weejays)
