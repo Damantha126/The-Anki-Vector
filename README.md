@@ -40,7 +40,6 @@ The Anki Vector bot(advanced)
 
 
 - **[Inuka Asith](https://github.com/inukaasith)**
- - **[Thenula66](https://github.com/thenula63728292)**
 - **[Prabasha](https://github.com/prabhasha-p/)**
 - **[ImJanindu](https://github.com/imjanindu)** 
 - **[Devil](https://github.com/lucifeermorningstar)** 
@@ -51,7 +50,8 @@ The Anki Vector bot(advanced)
 - **[TroJanzHEX](https://github.com/TroJanzHEX/)**
 - **[TeamDaisyx](https://github.com/teamdaisyx)**
 
-## Credits
-- [Damantha Jasinghe](https://github.com/Damantha126) - A Owner of Project
-- [Sadew Jsk](https://Github.com/sadew451)
-- [DEXTER # FX](https://github.com/weejays)
+## Devs
+- [Damantha Jasinghe](https://github.com/Damantha126) - Owner | Dev
+- [Sadew Jsk](https://Github.com/sadew451) - Owner | Dev
+- [DEXTER # FX](https://github.com/weejays) - Dev
+- [Thenula66](https://github.com/thenula63728292) - Dev
