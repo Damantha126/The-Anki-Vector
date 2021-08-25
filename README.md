@@ -52,4 +52,4 @@ The Anki Vector bot(advanced)
 - **[TeamDaisyx](https://github.com/teamdaisyx)**
 
 ## Credits
-- [Damantha Jasinghe](https://github.com/Damantha126) - A Owner of Project
+- [Damantha Jasinghe](https://github.com/Damantha126) - A Owner of Project ❤️
