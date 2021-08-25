@@ -40,8 +40,9 @@ The Anki Vector bot(advanced)
 # Special Credits ❤
 
 
-- **[Inuka Asith](https://github.com/inukaasith)** 
-- **[Prabasha](https://github.com/prabhasha-p/)** 
+- **[Inuka Asith](https://github.com/inukaasith)**
+ - **[Thenula66](https://github.com/thenula63728292)**
+- **[Prabasha](https://github.com/prabhasha-p/)**
 - **[ImJanindu](https://github.com/imjanindu)** 
 - **[Devil](https://github.com/lucifeermorningstar)** 
 - **[Miss-Valentina](https://github.com/Miss-Valentina)** 
@@ -50,7 +51,6 @@ The Anki Vector bot(advanced)
 - **[thehamkercat](https://github.com/thehamkercat/)**
 - **[TroJanzHEX](https://github.com/TroJanzHEX/)**
 - **[TeamDaisyx](https://github.com/teamdaisyx)**
-- **[Sadew Jayasekara](https://github.com/Sadew451)**
 
 ## Credits
-- [Damantha Jasinghe](https://github.com/Damantha126) - A Owner of Project ❤️
+- [Damantha Jasinghe](https://github.com/Damantha126) - A Owner of Project
