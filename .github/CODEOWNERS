@@ -2,8 +2,8 @@
 # Default owners for everything in the repo, unless a later match takes precedence
 
 # Phoenix owns the files under blacklist thingies
-/SaitamaRobot/modules/blacklistusers.py @rsktg
-/SaitamaRobot/modules/sql/blacklistusers_sql.py @rsktg
+/AnkiVector/modules/blacklistusers.py @rsktg
+/AnkiVector/modules/sql/blacklistusers_sql.py @rsktg
 #pep8-ing the code doesn't change maker
-/SaitamaRobot/modules/paste.py @DragSama
-/SaitamaRobot/modules/speed_test.py @DragSama
+/AnkiVector/modules/paste.py @DragSama
+/AnkiVector/modules/speed_test.py @DragSama
