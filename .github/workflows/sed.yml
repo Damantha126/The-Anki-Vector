@@ -8,7 +8,7 @@ jobs:
       - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@master
         with:
-          find: "SnowGirl"
+          find: "AnkiVector"
           replace: "AnkiVector"
       - name: Pull All Updates
         uses: stefanzweifel/git-auto-commit-action@v4
