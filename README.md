@@ -49,6 +49,7 @@ The Anki Vector bot(advanced)
 - **[thehamkercat](https://github.com/thehamkercat/)**
 - **[TroJanzHEX](https://github.com/TroJanzHEX/)**
 - **[TeamDaisyx](https://github.com/teamdaisyx)**
+- **[King Amda](https://github.com/King-Amda)**
 
 ## Devs
 - [Damantha Jasinghe](https://github.com/Damantha126) - Owner | Dev
