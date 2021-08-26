@@ -49,10 +49,10 @@ The Anki Vector bot(advanced)
 - **[thehamkercat](https://github.com/thehamkercat/)**
 - **[TroJanzHEX](https://github.com/TroJanzHEX/)**
 - **[TeamDaisyx](https://github.com/teamdaisyx)**
-- **[King Amda](https://github.com/King-Amda)**
 
 ## Devs
 - [Damantha Jasinghe](https://github.com/Damantha126) - Owner | Dev
 - [Sadew Jsk](https://Github.com/sadew451) - Owner | Dev
 - [DEXTER # FX](https://github.com/weejays) - Dev
 - [Thenula66](https://github.com/thenula63728292) - Dev
+- [King Amda](https://github.com/King-Amda) - Dev
