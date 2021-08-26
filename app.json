@@ -86,7 +86,7 @@
          "required": false,
          "value": "1391755824 1758509403 1848277863"
       },
-      "sw_api": {
+      "SPAMWATCH_API": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
          "required": false,
          "value": ""
