@@ -9,6 +9,6 @@ Powerful Abilities
 
 • Youtube Downloader 🎵
 
-Developer [Damantha🇱🇰](https://t.me/Damantha_Jasinghe)
+Developers [TeamAnkiVector🇱🇰](https://t.me/TeamAnkiVector)
 """
 __mod_name__ = "About"
