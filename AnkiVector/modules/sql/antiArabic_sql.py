@@ -1,3 +1,4 @@
+# © ankivector
 import threading
 from typing import Union
 
