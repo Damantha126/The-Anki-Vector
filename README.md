@@ -56,3 +56,4 @@ The Anki Vector bot(advanced)
 - [DEXTER # FX](https://github.com/weejays) - Dev
 - [Thenula66](https://github.com/thenula63728292) - Dev
 - [King Amda](https://github.com/King-Amda) - Dev
+- [Thilina](https://github.com/Thilinaweerasekara2003) - Dev
