@@ -50,6 +50,7 @@ The Anki Vector bot(advanced)
 - **[TroJanzHEX](https://github.com/TroJanzHEX/)**
 - **[TeamDaisyx](https://github.com/teamdaisyx)**
 
+
 ## Devs
 - [Damantha Jasinghe](https://github.com/Damantha126) - Owner | Dev
 - [Sadew Jsk](https://Github.com/sadew451) - Owner | Dev
