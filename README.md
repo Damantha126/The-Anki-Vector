@@ -59,3 +59,4 @@ The Anki Vector bot(advanced)
 - [King Amda](https://github.com/King-Amda) - Dev
 - [Thilina](https://github.com/Thilinaweerasekara2003) - Dev
 - [PercyOfficial](https://github.com/PercyOfficial) - Dev
+- [Supun](https://github.com/youtubeslgeekshow) - Dev
