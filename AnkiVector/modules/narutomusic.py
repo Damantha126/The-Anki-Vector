@@ -200,7 +200,7 @@ async def download_video(v_url):
         return
     except GeoRestrictedError:
         await rkp.edit(
-            "`Video is not available from your geographic location due to geographic restrictions imposed by a website.`"
+            "*Video is not available from your geographic location due to geographic restrictions imposed by a website.*"
         )
         return
     except MaxDownloadsReached:
