@@ -48,7 +48,7 @@ The Anki Vector bot(advanced)
 - **[Anime Kaizoku](https://github.com/AnimeKaizoku)**
 - **[thehamkercat](https://github.com/thehamkercat/)**
 - **[TroJanzHEX](https://github.com/TroJanzHEX/)**
-- **[TeamDaisyx](https://github.com/teamdaisyx)**
+- **[TeamDaisyX](https://github.com/teamdaisyx)**
 
 
 ## Devs
