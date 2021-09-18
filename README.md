@@ -1,9 +1,13 @@
-## The Anki Vector Based on Python Telegram Bot ![GitHub repo size](https://img.shields.io/github/repo-size/Damantha126/The-Anki-Vector?label=Repo%20Size) ![Last Commit](https://img.shields.io/github/last-commit/damantha126/the-anki-vector?color=red&label=Last%20commit&logo=damantha&logoColor=green)
+## The Anki Vector Based on Python Telegram Bot 
+
+![GitHub repo size](https://img.shields.io/github/repo-size/Damantha126/The-Anki-Vector?label=Repo%20Size) ![Last Commit](https://img.shields.io/github/last-commit/damantha126/the-anki-vector?color=red&label=Last%20commit&logo=damantha&logoColor=green)
 <p align="center">
   <img src="https://telegra.ph/file/bd618b573899ecd009cd8.jpg" width='600"'>
 </p>
+
 # 2 Branches available. this is main brach. swith advaced fr all fetures
 
+### Deployment
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Damantha126/The-Anki-Vector.git)
 
 
@@ -38,7 +42,6 @@ The Anki Vector bot(advanced)
 
 # Special Credits ❤
 
-
 - **[Inuka Asith](https://github.com/inukaasith)**
 - **[Prabasha](https://github.com/prabhasha-p/)**
 - **[ImJanindu](https://github.com/imjanindu)** 
@@ -52,6 +55,7 @@ The Anki Vector bot(advanced)
 
 
 ## Devs
+
 - [Damantha Jasinghe](https://github.com/Damantha126) - Owner | Dev
 - [Sadew Jsk](https://Github.com/sadew451) - Owner | Dev
 - [DEXTER # FX](https://github.com/weejays) - Dev
