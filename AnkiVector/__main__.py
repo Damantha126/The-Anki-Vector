@@ -63,8 +63,8 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-𝙃𝙚𝙡𝙡𝙤 𝙩𝙝𝙚𝙧𝙚, 𝙄'𝙢 [ᗩᑎKI ᐯEᑕTOᖇ](t.me/ankivectorUpdates) 🍑
-𝙄'𝙢 𝙖 𝙋𝙤𝙬𝙚𝙧𝙛𝙪𝙡 𝙜𝙧𝙤𝙪𝙥 𝙢𝙖𝙣𝙖𝙜𝙚𝙧 𝙗𝙤𝙩 𝙒𝙞𝙩𝙝 𝘾𝙤𝙤𝙡 𝙈𝙤𝙙𝙪𝙡𝙚𝙨. 𝙈𝙖𝙙𝙚 𝙗𝙮 [TEᗩᗰ ᗩᑎKI ᐯEᑕTOᖇ](t.me/TeamAnkiVector)
+𝙃𝙚𝙡𝙡𝙤 𝙩𝙝𝙚𝙧𝙚, 𝙄'𝙢 [ＴＷＩＮＫＬＥ✨](t.me/@TwinkleNub_bot) 
+𝙄'𝙢 𝙖 𝙋𝙤𝙬𝙚𝙧𝙛𝙪𝙡 𝙜𝙧𝙤𝙪𝙥 𝙢𝙖𝙣𝙖𝙜𝙚𝙧 𝙗𝙤𝙩 𝙒𝙞𝙩𝙝 𝘾𝙤𝙤𝙡 𝙈𝙤𝙙𝙪𝙡𝙚𝙨. 𝙈𝙖𝙙𝙚 𝙗𝙮 [ ⛣ΔβĦΔ¥ッ♛ (𝙼𝚛.𝙷𝚊𝚗𝚓𝚒 ♛) ⁪⁬](t.me/PARA_TOXIC69)
 𝙃𝙞𝙩 /help 𝙩𝙤 𝙛𝙞𝙣𝙙 𝙢𝙮 𝙡𝙞𝙨𝙩 𝙤𝙛 𝙖𝙫𝙖𝙞𝙡𝙖𝙗𝙡𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨 🕹
  
 """
@@ -75,21 +75,21 @@ buttons = [
         InlineKeyboardButton(text="🖲 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/SNAKEANTlBAN"),
     ],
     [
-        InlineKeyboardButton(text="📜 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://t.me/PARA_TOXIC69"),
-        InlineKeyboardButton(text="❔ ʜᴇʟᴘ", url="http://t.me/TheAnkiVectorbot?start=help"),
+        InlineKeyboardButton(text="👑 ᴏᴡɴᴇʀ", url="https://t.me/PARA_TOXIC69"),
+        InlineKeyboardButton(text="❔ ʜᴇʟᴘ", url="http://t.me/TwinkleNub_bot?start=help"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ ᴀᴅᴅ ᴀɴᴋɪ ᴠᴇᴄᴛᴏʀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
+            text="➕ ᴀᴅᴅ ＴＷＩＮＫＬＥ✨ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url="t.me/TwinkleNub_bot?startgroup=true"
         ),
     ],
 ]
 
 
-ANKIVECTOR_IMG = "https://telegra.ph/file/75579c20520fc79f5b68d.jpg"
+ANKIVECTOR_IMG = "https://telegra.ph/file/f8c7c4dc1021ba712818a.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/e10a45d0433a1ab6fed7b.jpg)
+*Main Commands :* [🤖](https://telegra.ph/file/f8c7c4dc1021ba712818a.jpg)
 
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
