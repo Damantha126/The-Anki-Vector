@@ -62,5 +62,6 @@ The Anki Vector bot(advanced)
 - [Thenula66](https://github.com/thenula63728292) - Dev
 - [King Amda](https://github.com/King-Amda) - Dev
 - [Thilina](https://github.com/Thilinaweerasekara2003) - Dev
-- [PercyOfficial](https://github.com/PercyOfficial) - Dev
+- [Percy Official](https://github.com/PercyOfficial) - Dev
 - [Supun](https://github.com/youtubeslgeekshow) - Dev
+- [Deshadeeth Thisarana]https://github.com/Deshadeeth-Thisarana) - Dev
