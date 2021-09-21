@@ -2,7 +2,7 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Damantha126/The-Anki-Vector?label=Repo%20Size) ![Last Commit](https://img.shields.io/github/last-commit/damantha126/the-anki-vector?color=red&label=Last%20commit&logo=damantha&logoColor=green)
 <p align="center">
-  <img src="https://telegra.ph/file/bd618b573899ecd009cd8.jpg" width='600"'>
+  <img src="https://telegra.ph/file/8bcfa486f4d26d3b4a723.jpg" width='600"'>
 </p>
 
 # 2 Branches available. this is main brach. swith advaced fr all fetures
