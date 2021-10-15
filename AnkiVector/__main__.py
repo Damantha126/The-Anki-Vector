@@ -64,7 +64,7 @@ from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
 Hey there 👋 
-My name is Rose 
+My name is Roseyy 
 I can manage your groups with more functions 😏
 If you want to know how to use me just press on Help🛠 button below or hit /help 🙂
 @sl_bot_zone Projects 🇱🇰
