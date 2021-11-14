@@ -64,6 +64,7 @@ from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = f"""
 *Hellow There, I'm Anki Vector 🍑
+
 I'm a Powerfull group manager bot With Cool Modules. Made My @TeamAnkiVector
 hit /help to Find my list of available commands 🕹*
 """
