@@ -62,25 +62,24 @@ from AnkiVector.modules.helper_funcs.chat_status import is_user_admin
 from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
-PM_START_TEXT = """
-𝙃𝙚𝙡𝙡𝙤 𝙩𝙝𝙚𝙧𝙚, 𝙄'𝙢 [ᗩᑎKI ᐯEᑕTOᖇ](t.me/ankivectorUpdates) 🍑
-𝙄'𝙢 𝙖 𝙋𝙤𝙬𝙚𝙧𝙛𝙪𝙡 𝙜𝙧𝙤𝙪𝙥 𝙢𝙖𝙣𝙖𝙜𝙚𝙧 𝙗𝙤𝙩 𝙒𝙞𝙩𝙝 𝘾𝙤𝙤𝙡 𝙈𝙤𝙙𝙪𝙡𝙚𝙨. 𝙈𝙖𝙙𝙚 𝙗𝙮 [TEᗩᗰ ᗩᑎKI ᐯEᑕTOᖇ](t.me/TeamAnkiVector)
-𝙃𝙞𝙩 /help 𝙩𝙤 𝙛𝙞𝙣𝙙 𝙢𝙮 𝙡𝙞𝙨𝙩 𝙤𝙛 𝙖𝙫𝙖𝙞𝙡𝙖𝙗𝙡𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨 🕹
- 
+PM_START_TEXT = f"""
+*Hellow There, I'm Anki Vector 🍑
+I'm a Powerfull group manager bot With Cool Modules. Made My @TeamAnkiVector
+hit /help to Find my list of available commands 🕹*
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="📌ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/ankivectorUpdates"),
-        InlineKeyboardButton(text="🖲 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/AnkiSupport_Official"),
+        InlineKeyboardButton(text="📌Updates Channel", url="https://t.me/ankivectorUpdates"),
+        InlineKeyboardButton(text="🖲 Support Group", url="https://t.me/AnkiSupport_Official"),
     ],
     [
-        InlineKeyboardButton(text="📜 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
-        InlineKeyboardButton(text="❔ ʜᴇʟᴘ", url="http://t.me/TheAnkiVectorbot?start=help"),
+        InlineKeyboardButton(text="📜 Source Code", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
+        InlineKeyboardButton(text="❔ Help", callback_data="helpmenu_"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ ᴀᴅᴅ ᴀɴᴋɪ ᴠᴇᴄᴛᴏʀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
+            text="➕ Add Anki Vector To Youre Group ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
         ),
     ],
 ]
