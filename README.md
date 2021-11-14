@@ -14,8 +14,6 @@
 ### Video Tutorial:
 Complete guide on deploying @TheAnkiVectorbot's clone on Heroku.
 
-[![Tutorial](https://yt-embed.herokuapp.com/embed?v=fXXEcAkWAFU)](https://www.youtube.com/watch?v=fXXEcAkWAFU)
-
 ☆ Video by [Damantha Jasinghe](https://www.youtube.com/watch?v=fXXEcAkWAFU) ☆
 [![YouTube](https://img.shields.io/badge/YouTube-Video%20Tutorial-red?logo=youtube)](https://www.youtube.com/watch?v=fXXEcAkWAFU)
 
