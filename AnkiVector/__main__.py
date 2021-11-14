@@ -85,7 +85,7 @@ buttons = [
 ]
 
 
-ANKIVECTOR_IMG = "https://telegra.ph/file/75579c20520fc79f5b68d.jpg"
+ANKIVECTOR_STICKER = "CAACAgUAAxkBAAEEwKthkPVBp6d5T4S3dlYZM3L8BkXRNAACOAQAAryviVQbCLI09PvjAAEiBA"
 
 HELP_STRINGS = f"""
 *Main Commands :* [🤖](https://telegra.ph/file/e10a45d0433a1ab6fed7b.jpg)
@@ -218,8 +218,8 @@ def start(update: Update, context: CallbackContext):
 
         else:
             update.effective_user.first_name
-            update.effective_message.reply_photo(
-                ANKIVECTOR_IMG,
+            update.effective_message.reply_sticker(
+                ANKIVECTOR_STICKER,
                 caption=PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
