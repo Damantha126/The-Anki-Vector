@@ -55,7 +55,7 @@ The Anki Vector bot(advanced)
 ## Devs
 
 - [Damantha Jasinghe](https://github.com/Damantha126) - Owner | Dev
-- [Sadew Jsk](https://Github.com/sadew451) - Owner | Dev
+- `Sadew Jayasekara`(https://Github.com/sadew451) - Owner | Dev
 - [DEXTER # FX](https://github.com/weejays) - Dev
 - [Thenula66](https://github.com/thenula63728292) - Dev
 - [King Amda](https://github.com/King-Amda) - Dev
