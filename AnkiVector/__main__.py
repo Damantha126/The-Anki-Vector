@@ -76,7 +76,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="📜 Source Code", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
-        InlineKeyboardButton(text="❔ Help", callback_data="helpmenu_"),
+        InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
