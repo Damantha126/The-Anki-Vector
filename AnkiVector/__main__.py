@@ -220,7 +220,7 @@ def start(update: Update, context: CallbackContext):
 
         else:
             update.effective_message.reply_sticker(
-                random.choice(ANKIVECTOR_STICKER),
+                ANKIVECTOR_STICKER,
                 timeout=60,
             )
             update.effective_message.reply_text(
@@ -252,11 +252,6 @@ def error_handler(update, context):
     # Build the message with some markup and additional information about what happened.
     message = (
         "An exception was raised while handling an update\n"
-        "<pre>update = {}</pre>\n\n"
-        "<pre>{}</pre>"
-    ).format(
-        html.escape(json.dumps(update.to_dict(), indent=2, ensure_ascii=False)),
-        html.escape(tb),
     )
 
     if len(message) >= 4096:
