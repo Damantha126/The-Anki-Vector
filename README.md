@@ -1,6 +1,13 @@
-## The Anki Vector Based on Python Telegram Bot 
+# The Anki Vector Based on Python Telegram Bot 
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Damantha126/The-Anki-Vector?label=Repo%20Size) ![Last Commit](https://img.shields.io/github/last-commit/damantha126/the-anki-vector?color=red&label=Last%20commit&logo=damantha&logoColor=green)
+
+
+<p align="center">
+    <br><b>📦 PROJECT ARCHIVED, NO LONGER MAINTAINED !!</b><br>
+</p>
+
+
 <p align="center">
   <img src="https://telegra.ph/file/17e7c135c81197457ac84.jpg" width='600"'>
 </p>
